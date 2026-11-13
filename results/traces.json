@@ -1,0 +1,3455 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "What two types of memory help an agent retain context?",
+    "expected_answer": "Short-term and long-term memory.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 5,
+    "evidence_quote": "both short-term and long-term memory components",
+    "hits": [
+      {
+        "chunk_id": "survey-v3:5:2",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 5,
+        "text": " memory components to maintain context across interactions and store relevant information for future use (Zhang et al.,2024;Yang et al.,2025b). This dual memory system allows agents to maintain conversation continuity while building knowledge over time.\n\n• Planning: Planning is a fundamental aspect of agent research (), enabling agents to break down complex tasks into smaller, manageable subtasks. Such planning mechanisms facilitate strategic problem-solving and enhance the interpretability and ",
+        "metadata": {
+          "end": 1400,
+          "start": 900,
+          "document_type": "survey"
+        },
+        "score": 0.8204496991902425,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:29:8",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 29,
+        "text": "k states, distributed memory snapshots, and temporal context logs, rather than human-readable web content. This network layer would serve agents’ operational needs directly—enabling persistent state synchronization, longhorizon planning, and asynchronous collaboration—without requiring human intervention or visibility.\n\n7 Conclusion\n\nIn this survey, we provide the first comprehensive analysis of existing AI agent protocols. By systematically classifying protocols into two-dimensional classificat",
+        "metadata": {
+          "end": 4100,
+          "start": 3600,
+          "document_type": "survey"
+        },
+        "score": 0.7601747965916883,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:18:6",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 18,
+        "text": "ntroduces core abstractions such as Runs for task execution, Threads for managing multi-turn interactions, and Store for persistent, long-term memory. By standardizing these functionalities, Agent Protocol empowers developers to orchestrate heterogeneous agents across diverse systems, promoting interoperability, scalability, and operational transparency in multi-agent environments. There is some relationship between Inter-Agent Protocol and Context-Oriented Protocol. Within context-oriented inte",
+        "metadata": {
+          "end": 3200,
+          "start": 2700,
+          "document_type": "survey"
+        },
+        "score": 0.745496749877935,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": false,
+    "hit3": false,
+    "strategy": "A",
+    "applied_filter": null
+  },
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "What two types of memory help an agent retain context?",
+    "expected_answer": "Short-term and long-term memory.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 5,
+    "evidence_quote": "both short-term and long-term memory components",
+    "hits": [
+      {
+        "chunk_id": "survey-v3:5:2",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 5,
+        "text": "• Memory Systems: LLM agents implement both short-term and long-term memory components to maintain context across interactions and store relevant information for future use (Zhang et al.,2024;Yang et al.,2025b). This dual memory system allows agents to maintain conversation continuity while building knowledge over time.",
+        "metadata": {
+          "end": 1153,
+          "start": 832,
+          "document_type": "survey"
+        },
+        "score": 0.8283633487441167,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "survey-v3:8:1",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 8,
+        "text": "Despite the advanced language understanding and reasoning capabilities of LLMs, LLM agents cannot solely rely on the inherent knowledge of LLMs to respond to complex queries or intents. Instead, to get necessary context to achieve goals, LLM agents usually need to autonomously determine when and which external tools to invoke, and execute actions through these tools (Liu et al.,2025).",
+        "metadata": {
+          "end": 749,
+          "start": 362,
+          "document_type": "survey"
+        },
+        "score": 0.7293295916315551,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:4:2",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 4,
+        "text": "• We propose the first systematic, two-dimensional classification of agent protocols—distinguishing context-oriented vs. inter-agent protocols and general-purpose vs. domain-specific protocols—to provide a clear organizational framework.\n\n• We conduct a qualitative analysis of current agent protocols across key dimensions such as efficiency, scalability, security, and reliability, revealing their relative strengths and limitations in different application environments.",
+        "metadata": {
+          "end": 1134,
+          "start": 661,
+          "document_type": "survey"
+        },
+        "score": 0.727672522754001,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "B",
+    "applied_filter": null
+  },
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "What two types of memory help an agent retain context?",
+    "expected_answer": "Short-term and long-term memory.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 5,
+    "evidence_quote": "both short-term and long-term memory components",
+    "hits": [
+      {
+        "chunk_id": "survey-v3:5:2",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 5,
+        "text": "• Memory Systems: LLM agents implement both short-term and long-term memory components to maintain context across interactions and store relevant information for future use (Zhang et al.,2024;Yang et al.,2025b). This dual memory system allows agents to maintain conversation continuity while building knowledge over time.",
+        "metadata": {
+          "end": 1153,
+          "start": 832,
+          "document_type": "survey"
+        },
+        "score": 0.8283633487441167,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "survey-v3:8:1",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 8,
+        "text": "Despite the advanced language understanding and reasoning capabilities of LLMs, LLM agents cannot solely rely on the inherent knowledge of LLMs to respond to complex queries or intents. Instead, to get necessary context to achieve goals, LLM agents usually need to autonomously determine when and which external tools to invoke, and execute actions through these tools (Liu et al.,2025).",
+        "metadata": {
+          "end": 749,
+          "start": 362,
+          "document_type": "survey"
+        },
+        "score": 0.7293295916315551,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:4:2",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 4,
+        "text": "• We propose the first systematic, two-dimensional classification of agent protocols—distinguishing context-oriented vs. inter-agent protocols and general-purpose vs. domain-specific protocols—to provide a clear organizational framework.\n\n• We conduct a qualitative analysis of current agent protocols across key dimensions such as efficiency, scalability, security, and reliability, revealing their relative strengths and limitations in different application environments.",
+        "metadata": {
+          "end": 1134,
+          "start": 661,
+          "document_type": "survey"
+        },
+        "score": 0.727672522754001,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "C",
+    "applied_filter": null
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "What does an agent protocol define for structured communication?",
+    "expected_answer": "Rules, formats and procedures.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 6,
+    "evidence_quote": "the rules, formats, and procedures for structured communication",
+    "hits": [
+      {
+        "chunk_id": "survey-v3:18:5",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 18,
+        "text": " agents autonomously coordinate across tools and organizations to resolve issues and optimize operations.\n\nAgent Protocol (AlEngineerFoundation,2025) The Agent Protocol is an open-source, framework-agnostic communication standard designed to enable seamless interaction between controlconsolesandAIagents. BuiltonOpenAPIv3, itdefinesaunifiedinterfaceforexecutingkey agent lifecycle operations—starting, stopping, and monitoring agents. The protocol introduces core abstractions such as Runs for task ",
+        "metadata": {
+          "end": 2750,
+          "start": 2250,
+          "document_type": "survey"
+        },
+        "score": 0.8512278287871001,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:23:8",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 23,
+        "text": " different systems, frameworks, browsers, and other environments. Similar to how the Internet Protocol establishes standards for network communication to ensure data transmission between diverse devices and systems, Agent Protocol defines standardized communication rules and data formats to allow agents developed on various platforms to interact effectively. It enables agents to discover, communicate, andcollaboratewithoneanotherregardlessoftheirunderlyingimplementation details, much like how di",
+        "metadata": {
+          "end": 4100,
+          "start": 3600,
+          "document_type": "survey"
+        },
+        "score": 0.8318755030632078,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:28:5",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 28,
+        "text": "than transmitting raw sensitive information.\n\nAgent Mesh Protocol. Existing agent interaction protocols are primarily designed for communication between pairs of agents, which can become increasingly inefficient as the number and complexity of agents grow. To overcome these limitations, we envision the development of an Agent Mesh Protocol—a communication model inspired by human group chats in the digital age. This protocol would enable full transparency and shared access to communication histor",
+        "metadata": {
+          "end": 2750,
+          "start": 2250,
+          "document_type": "survey"
+        },
+        "score": 0.8311204515551982,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": false,
+    "hit3": false,
+    "strategy": "A",
+    "applied_filter": null
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "What does an agent protocol define for structured communication?",
+    "expected_answer": "Rules, formats and procedures.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 6,
+    "evidence_quote": "the rules, formats, and procedures for structured communication",
+    "hits": [
+      {
+        "chunk_id": "survey-v3:6:10",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 6,
+        "text": "Agent protocols are standardized frameworks that define the rules, formats, and procedures for structured communication among agents and between agents and external systems. Compared to traditional interaction mechanisms—such as APIs, graphical user interfaces (GUIs), or XML-based interactions—protocols exhibit significant advantages, as summarized in Table1.",
+        "metadata": {
+          "end": 4268,
+          "start": 3907,
+          "document_type": "survey"
+        },
+        "score": 0.8756550698691523,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "survey-v3:18:6",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 18,
+        "text": "Agent Protocol (AlEngineerFoundation,2025) The Agent Protocol is an open-source, framework-agnostic communication standard designed to enable seamless interaction between controlconsolesandAIagents. BuiltonOpenAPIv3, itdefinesaunifiedinterfaceforexecutingkey agent lifecycle operations—starting, stopping, and monitoring agents. The protocol introduces core abstractions such as Runs for task execution, Threads for managing multi-turn interactions, and Store for persistent, long-term memory.",
+        "metadata": {
+          "end": 2850,
+          "start": 2357,
+          "document_type": "survey"
+        },
+        "score": 0.8598634940426535,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:18:2",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 18,
+        "text": "Meanwhile, the Agent Protocol defines a framework-agnostic communication standard, enabling control consoles to manage agent operations effectively. Together, these protocols establish a robust foundation for the development and deployment of interoperable, scalable, and secure AI agent ecosystems.",
+        "metadata": {
+          "end": 1037,
+          "start": 738,
+          "document_type": "survey"
+        },
+        "score": 0.8558693528175415,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "B",
+    "applied_filter": null
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "What does an agent protocol define for structured communication?",
+    "expected_answer": "Rules, formats and procedures.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 6,
+    "evidence_quote": "the rules, formats, and procedures for structured communication",
+    "hits": [
+      {
+        "chunk_id": "survey-v3:6:10",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 6,
+        "text": "Agent protocols are standardized frameworks that define the rules, formats, and procedures for structured communication among agents and between agents and external systems. Compared to traditional interaction mechanisms—such as APIs, graphical user interfaces (GUIs), or XML-based interactions—protocols exhibit significant advantages, as summarized in Table1.",
+        "metadata": {
+          "end": 4268,
+          "start": 3907,
+          "document_type": "survey"
+        },
+        "score": 0.8756550698691523,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "survey-v3:18:6",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 18,
+        "text": "Agent Protocol (AlEngineerFoundation,2025) The Agent Protocol is an open-source, framework-agnostic communication standard designed to enable seamless interaction between controlconsolesandAIagents. BuiltonOpenAPIv3, itdefinesaunifiedinterfaceforexecutingkey agent lifecycle operations—starting, stopping, and monitoring agents. The protocol introduces core abstractions such as Runs for task execution, Threads for managing multi-turn interactions, and Store for persistent, long-term memory.",
+        "metadata": {
+          "end": 2850,
+          "start": 2357,
+          "document_type": "survey"
+        },
+        "score": 0.8598634940426535,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:18:2",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 18,
+        "text": "Meanwhile, the Agent Protocol defines a framework-agnostic communication standard, enabling control consoles to manage agent operations effectively. Together, these protocols establish a robust foundation for the development and deployment of interoperable, scalable, and secure AI agent ecosystems.",
+        "metadata": {
+          "end": 1037,
+          "start": 738,
+          "document_type": "survey"
+        },
+        "score": 0.8558693528175415,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "C",
+    "applied_filter": null
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "What two axes does the survey use to classify protocols?",
+    "expected_answer": "Context-oriented vs inter-agent, and general-purpose vs domain-specific.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 4,
+    "evidence_quote": "context-oriented vs. inter-agent protocols and general-purpose vs. domain-specific protocols",
+    "hits": [
+      {
+        "chunk_id": "survey-v3:7:7",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 7,
+        "text": "dies are deficient in the systematic classification of these protocols. To address this gap, we propose a two-dimensional classification framework for agent protocols illustrated in Figure3. On the first dimension— object orientation—protocols are divided into context-oriented and inter-agent types; on the second dimension—application scenario—they are further categorized as general-purpose or domain-specific.\n\n7 Manner Scenarios Efficiency Operation Range Standardized AI-Native API Server-to-se",
+        "metadata": {
+          "end": 3650,
+          "start": 3150,
+          "document_type": "survey"
+        },
+        "score": 0.7601861953735352,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:8:0",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 8,
+        "text": "Figure 3: Classification of various agent protocols from two dimensions, i.e., object orientation and application scenario . Please refer to Table2for more information. To distinguish between the two ACPs — the Agent Connect Protocol and the Agent Communication Protocol — we will refer to them as AconP and AcomP, respectively.\n\n3.1 Context-Oriented Protocols\n\nDespite the advanced language understanding and reasoning capabilities of LLMs, LLM agents cannot solely rely on the inherent knowledge of",
+        "metadata": {
+          "end": 500,
+          "start": 0,
+          "document_type": "survey"
+        },
+        "score": 0.7211662530899048,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:3:8",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 3,
+        "text": " Network Protocol (ANP) (Chang, 2024) and Agent-to-Agent (A2A) (Google,2025) facilitate collaboration among agents from diverse providers and structures in multi-agent scenarios. However, despite their rapid development, the lack of a detailed analysis and survey of agent protocols results in users and developers encountering difficulties when navigating the extensive agent protocols in practice. Among the most pressing concerns for users and developers are the analysis and classification of the",
+        "metadata": {
+          "end": 4100,
+          "start": 3600,
+          "document_type": "survey"
+        },
+        "score": 0.713222324848175,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": false,
+    "hit3": false,
+    "strategy": "A",
+    "applied_filter": null
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "What two axes does the survey use to classify protocols?",
+    "expected_answer": "Context-oriented vs inter-agent, and general-purpose vs domain-specific.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 4,
+    "evidence_quote": "context-oriented vs. inter-agent protocols and general-purpose vs. domain-specific protocols",
+    "hits": [
+      {
+        "chunk_id": "survey-v3:7:8",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 7,
+        "text": "In response to the rapidly evolving demands of LLM agents, a variety of agent protocols have emerged. However, existing studies are deficient in the systematic classification of these protocols. To address this gap, we propose a two-dimensional classification framework for agent protocols illustrated in Figure3.",
+        "metadata": {
+          "end": 3340,
+          "start": 3027,
+          "document_type": "survey"
+        },
+        "score": 0.7399211525917053,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:8:0",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 8,
+        "text": "Figure 3: Classification of various agent protocols from two dimensions, i.e., object orientation and application scenario . Please refer to Table2for more information. To distinguish between the two ACPs — the Agent Connect Protocol and the Agent Communication Protocol — we will refer to them as AconP and AcomP, respectively.\n\n3.1 Context-Oriented Protocols",
+        "metadata": {
+          "end": 360,
+          "start": 0,
+          "document_type": "survey"
+        },
+        "score": 0.7345203161239624,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:7:9",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 7,
+        "text": "On the first dimension— object orientation—protocols are divided into context-oriented and inter-agent types; on the second dimension—application scenario—they are further categorized as general-purpose or domain-specific.\n\n7 Manner Scenarios Efficiency Operation Range Standardized AI-Native API Server-to-server integration ✓✓ × × × GUI Computer/ Mobile Use × ✓ ✓ × XML Browser Use × ✓ × × Protocol Agent Interaction ✓✓ ✓✓ ✓✓ ✓✓",
+        "metadata": {
+          "end": 3771,
+          "start": 3341,
+          "document_type": "survey"
+        },
+        "score": 0.7311041355133057,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": false,
+    "hit3": false,
+    "strategy": "B",
+    "applied_filter": null
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "What two axes does the survey use to classify protocols?",
+    "expected_answer": "Context-oriented vs inter-agent, and general-purpose vs domain-specific.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 4,
+    "evidence_quote": "context-oriented vs. inter-agent protocols and general-purpose vs. domain-specific protocols",
+    "hits": [
+      {
+        "chunk_id": "survey-v3:7:8",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 7,
+        "text": "In response to the rapidly evolving demands of LLM agents, a variety of agent protocols have emerged. However, existing studies are deficient in the systematic classification of these protocols. To address this gap, we propose a two-dimensional classification framework for agent protocols illustrated in Figure3.",
+        "metadata": {
+          "end": 3340,
+          "start": 3027,
+          "document_type": "survey"
+        },
+        "score": 0.7399211525917053,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:8:0",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 8,
+        "text": "Figure 3: Classification of various agent protocols from two dimensions, i.e., object orientation and application scenario . Please refer to Table2for more information. To distinguish between the two ACPs — the Agent Connect Protocol and the Agent Communication Protocol — we will refer to them as AconP and AcomP, respectively.\n\n3.1 Context-Oriented Protocols",
+        "metadata": {
+          "end": 360,
+          "start": 0,
+          "document_type": "survey"
+        },
+        "score": 0.7345203161239624,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:7:9",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 7,
+        "text": "On the first dimension— object orientation—protocols are divided into context-oriented and inter-agent types; on the second dimension—application scenario—they are further categorized as general-purpose or domain-specific.\n\n7 Manner Scenarios Efficiency Operation Range Standardized AI-Native API Server-to-server integration ✓✓ × × × GUI Computer/ Mobile Use × ✓ ✓ × XML Browser Use × ✓ × × Protocol Agent Interaction ✓✓ ✓✓ ✓✓ ✓✓",
+        "metadata": {
+          "end": 3771,
+          "start": 3341,
+          "document_type": "survey"
+        },
+        "score": 0.7311041355133057,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": false,
+    "hit3": false,
+    "strategy": "C",
+    "applied_filter": null
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "How do general-purpose context protocols differ from domain-specific ones?",
+    "expected_answer": "The former use a unified interface, the latter optimize for particular use cases.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 9,
+    "evidence_quote": "General-purpose protocols aim to support a wide range of agents and context providers through a unified interface, while domain-specific protocols focus on specialized optimization for particular use cases.",
+    "hits": [
+      {
+        "chunk_id": "survey-v3:9:0",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 9,
+        "text": "Table 2: Overview of popular agent protocols.\n\ncontext exchange between agents and context providers. Based on application scenarios, contextoriented agent protocols can be categorized as general-purpose or domain-specific. General-purpose protocols aim to support a wide range of agents and context providers through a unified interface, while domain-specific protocols focus on specialized optimization for particular use cases.\n\n3.1.1 General-Purpose Protocols\n\nGeneral-purpose agent protocols are",
+        "metadata": {
+          "end": 500,
+          "start": 0,
+          "document_type": "survey"
+        },
+        "score": 0.8668199419701219,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "survey-v3:8:5",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 8,
+        "text": " a standardized method for context acquisition, these protocols can reduce fragmentation in\n\nContext-Oriented Domain-Specific 8 agents.json\n\nProtocol General-Purpose ANP, A2A, AITP, AComP, AConP, Agora, Coral\n\nInter-Agent Human-Computer LOKA, PXP, WAP (Sec. 3.2.2.1)\n\nDomain-Specific Robot-Agent CrowdES, SPPs (Sec. 3.2.2.2)\n\nSystem-Agent Agent Protocol, (Sec. 3.2.2.3) LMOS",
+        "metadata": {
+          "end": 2624,
+          "start": 2250,
+          "document_type": "survey"
+        },
+        "score": 0.8327084035240143,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:8:4",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 8,
+        "text": "own invocation interfaces, further exacerbating incompatibility. This fragmentation increases the burden on users and developers, requiring prompt-level customizations and management of diverse specifications, ultimately hindering interoperability, increasing system complexity, and raising development and maintenance costs.General-PurposeMCP In response to these challenges, several context-oriented agent protocols have been proposed. By providing a standardized method for context acquisition, th",
+        "metadata": {
+          "end": 2300,
+          "start": 1800,
+          "document_type": "survey"
+        },
+        "score": 0.8011853335874932,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "A",
+    "applied_filter": null
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "How do general-purpose context protocols differ from domain-specific ones?",
+    "expected_answer": "The former use a unified interface, the latter optimize for particular use cases.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 9,
+    "evidence_quote": "General-purpose protocols aim to support a wide range of agents and context providers through a unified interface, while domain-specific protocols focus on specialized optimization for particular use cases.",
+    "hits": [
+      {
+        "chunk_id": "survey-v3:9:0",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 9,
+        "text": "Table 2: Overview of popular agent protocols.\n\ncontext exchange between agents and context providers. Based on application scenarios, contextoriented agent protocols can be categorized as general-purpose or domain-specific. General-purpose protocols aim to support a wide range of agents and context providers through a unified interface, while domain-specific protocols focus on specialized optimization for particular use cases.\n\n3.1.1 General-Purpose Protocols",
+        "metadata": {
+          "end": 463,
+          "start": 0,
+          "document_type": "survey"
+        },
+        "score": 0.8705247276083138,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "survey-v3:8:5",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 8,
+        "text": "By providing a standardized method for context acquisition, these protocols can reduce fragmentation in\n\nContext-Oriented Domain-Specific 8 agents.json\n\nProtocol General-Purpose ANP, A2A, AITP, AComP, AConP, Agora, Coral\n\nInter-Agent Human-Computer LOKA, PXP, WAP (Sec. 3.2.2.1)\n\nDomain-Specific Robot-Agent CrowdES, SPPs (Sec. 3.2.2.2)\n\nSystem-Agent Agent Protocol, (Sec. 3.2.2.3) LMOS",
+        "metadata": {
+          "end": 2624,
+          "start": 2238,
+          "document_type": "survey"
+        },
+        "score": 0.8309773408201586,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:15:10",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 15,
+        "text": "Domain-specific protocols serve as tailored communication and coordination mechanisms that govern interactions between intelligent agents and their counterparts across distinct operational domains. These protocols are designed to address the unique requirements and constraints of each interaction context, ensuring robust, interpretable, and ethically aligned behavior. In this section, we categorize domain-specific protocols into three primary branches: (1) Human–Agent Interaction",
+        "metadata": {
+          "end": 4336,
+          "start": 3852,
+          "document_type": "survey"
+        },
+        "score": 0.8174744574771317,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "B",
+    "applied_filter": null
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "How do general-purpose context protocols differ from domain-specific ones?",
+    "expected_answer": "The former use a unified interface, the latter optimize for particular use cases.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 9,
+    "evidence_quote": "General-purpose protocols aim to support a wide range of agents and context providers through a unified interface, while domain-specific protocols focus on specialized optimization for particular use cases.",
+    "hits": [
+      {
+        "chunk_id": "survey-v3:9:0",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 9,
+        "text": "Table 2: Overview of popular agent protocols.\n\ncontext exchange between agents and context providers. Based on application scenarios, contextoriented agent protocols can be categorized as general-purpose or domain-specific. General-purpose protocols aim to support a wide range of agents and context providers through a unified interface, while domain-specific protocols focus on specialized optimization for particular use cases.\n\n3.1.1 General-Purpose Protocols",
+        "metadata": {
+          "end": 463,
+          "start": 0,
+          "document_type": "survey"
+        },
+        "score": 0.8705247276083138,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "survey-v3:8:5",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 8,
+        "text": "By providing a standardized method for context acquisition, these protocols can reduce fragmentation in\n\nContext-Oriented Domain-Specific 8 agents.json\n\nProtocol General-Purpose ANP, A2A, AITP, AComP, AConP, Agora, Coral\n\nInter-Agent Human-Computer LOKA, PXP, WAP (Sec. 3.2.2.1)\n\nDomain-Specific Robot-Agent CrowdES, SPPs (Sec. 3.2.2.2)\n\nSystem-Agent Agent Protocol, (Sec. 3.2.2.3) LMOS",
+        "metadata": {
+          "end": 2624,
+          "start": 2238,
+          "document_type": "survey"
+        },
+        "score": 0.8309773408201586,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:15:10",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 15,
+        "text": "Domain-specific protocols serve as tailored communication and coordination mechanisms that govern interactions between intelligent agents and their counterparts across distinct operational domains. These protocols are designed to address the unique requirements and constraints of each interaction context, ensuring robust, interpretable, and ethically aligned behavior. In this section, we categorize domain-specific protocols into three primary branches: (1) Human–Agent Interaction",
+        "metadata": {
+          "end": 4336,
+          "start": 3852,
+          "document_type": "survey"
+        },
+        "score": 0.8174744574771317,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "C",
+    "applied_filter": null
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "What can count as a resource in the MCP model?",
+    "expected_answer": "Local or remote data, tools or services.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 10,
+    "evidence_quote": "Resource refers to data (e.g., local file systems), tools (e.g., Git), or services (e.g., search engines) provided locally or remotely.",
+    "hits": [
+      {
+        "chunk_id": "survey-v3:10:2",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 10,
+        "text": " available resources. Based on the information available, the host determines which resources to request context from and initiating a strategic context request to the corresponding client. In the request phase of the MCP invocation cycle, the client sends an executive context request to the corresponding server, encompassing operations such as data modifications or tool invocations. Upon receiving the client’s request, the server operates on the resources as specified and subsequently transmits",
+        "metadata": {
+          "end": 1400,
+          "start": 900,
+          "document_type": "survey"
+        },
+        "score": 0.7762171030044611,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:10:3",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 10,
+        "text": " resources as specified and subsequently transmits the obtained context to the client, which then passes it on to the host. In the response phase of the MCP cycle, the host combines the context obtained to formulate a reply to the user query, thereby completing the cycle. MCPaddressesfragmentationintheLLMecosystembyintroducingapubliclystandardizedinvocation protocol that decouples tool usage from specific base LLM providers and context providers interfaces. By aligning tool invocation with MCP, ",
+        "metadata": {
+          "end": 1850,
+          "start": 1350,
+          "document_type": "survey"
+        },
+        "score": 0.7641531369594864,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "mcp-architecture:1:0",
+        "document_id": "mcp-architecture",
+        "source": "https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/docs/specification/2025-03-26/architecture/index.mdx",
+        "page": 1,
+        "text": "The Model Context Protocol (MCP) follows a client-host-server architecture where each host can run multiple client instances. This architecture enables users to integrate AI capabilities across applications while maintaining clear security boundaries and isolating concerns. Built on JSON-RPC, MCP provides a stateful session protocol focused on context exchange and sampling coordination between clients and servers.\n\n## Core Components\n\n### Host\n\nThe host process acts as the container and coordina",
+        "metadata": {
+          "end": 500,
+          "start": 0,
+          "document_type": "specification"
+        },
+        "score": 0.7563160948376543,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": false,
+    "hit3": false,
+    "strategy": "A",
+    "applied_filter": null
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "What can count as a resource in the MCP model?",
+    "expected_answer": "Local or remote data, tools or services.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 10,
+    "evidence_quote": "Resource refers to data (e.g., local file systems), tools (e.g., Git), or services (e.g., search engines) provided locally or remotely.",
+    "hits": [
+      {
+        "chunk_id": "survey-v3:10:1",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 10,
+        "text": "• Resource refers to data (e.g., local file systems), tools (e.g., Git), or services (e.g., search engines) provided locally or remotely.\n\nIn the initial phase of a complete MCP invocation cycle, when faced with a user query, the host employs the LLMs’ understanding and reasoning capabilities to infer the context necessary to formulate a response to the query. Concurrently, the multiple clients connected to the host provide natural language descriptions of the available resources.",
+        "metadata": {
+          "end": 921,
+          "start": 436,
+          "document_type": "survey"
+        },
+        "score": 0.7938415057848089,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "mcp-lifecycle:1:0",
+        "document_id": "mcp-lifecycle",
+        "source": "https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/docs/specification/2025-03-26/basic/lifecycle.mdx",
+        "page": 1,
+        "text": "The Model Context Protocol (MCP) defines a rigorous lifecycle for client-server connections that ensures proper capability negotiation and state management.\n\n1. **Initialization**: Capability negotiation and protocol version agreement 2. **Operation**: Normal protocol communication 3. **Shutdown**: Graceful termination of the connection\n\n## Lifecycle Phases\n\n### Initialization",
+        "metadata": {
+          "end": 379,
+          "start": 0,
+          "document_type": "specification"
+        },
+        "score": 0.7571147825053477,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "mcp-architecture:1:0",
+        "document_id": "mcp-architecture",
+        "source": "https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/docs/specification/2025-03-26/architecture/index.mdx",
+        "page": 1,
+        "text": "The Model Context Protocol (MCP) follows a client-host-server architecture where each host can run multiple client instances. This architecture enables users to integrate AI capabilities across applications while maintaining clear security boundaries and isolating concerns. Built on JSON-RPC, MCP provides a stateful session protocol focused on context exchange and sampling coordination between clients and servers.\n\n## Core Components\n\n### Host",
+        "metadata": {
+          "end": 447,
+          "start": 0,
+          "document_type": "specification"
+        },
+        "score": 0.7564175274123248,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "B",
+    "applied_filter": null
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "What can count as a resource in the MCP model?",
+    "expected_answer": "Local or remote data, tools or services.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 10,
+    "evidence_quote": "Resource refers to data (e.g., local file systems), tools (e.g., Git), or services (e.g., search engines) provided locally or remotely.",
+    "hits": [
+      {
+        "chunk_id": "survey-v3:10:1",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 10,
+        "text": "• Resource refers to data (e.g., local file systems), tools (e.g., Git), or services (e.g., search engines) provided locally or remotely.\n\nIn the initial phase of a complete MCP invocation cycle, when faced with a user query, the host employs the LLMs’ understanding and reasoning capabilities to infer the context necessary to formulate a response to the query. Concurrently, the multiple clients connected to the host provide natural language descriptions of the available resources.",
+        "metadata": {
+          "end": 921,
+          "start": 436,
+          "document_type": "survey"
+        },
+        "score": 0.7938415057848089,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "mcp-lifecycle:1:0",
+        "document_id": "mcp-lifecycle",
+        "source": "https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/docs/specification/2025-03-26/basic/lifecycle.mdx",
+        "page": 1,
+        "text": "The Model Context Protocol (MCP) defines a rigorous lifecycle for client-server connections that ensures proper capability negotiation and state management.\n\n1. **Initialization**: Capability negotiation and protocol version agreement 2. **Operation**: Normal protocol communication 3. **Shutdown**: Graceful termination of the connection\n\n## Lifecycle Phases\n\n### Initialization",
+        "metadata": {
+          "end": 379,
+          "start": 0,
+          "document_type": "specification"
+        },
+        "score": 0.7571147825053477,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "mcp-architecture:1:0",
+        "document_id": "mcp-architecture",
+        "source": "https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/docs/specification/2025-03-26/architecture/index.mdx",
+        "page": 1,
+        "text": "The Model Context Protocol (MCP) follows a client-host-server architecture where each host can run multiple client instances. This architecture enables users to integrate AI capabilities across applications while maintaining clear security boundaries and isolating concerns. Built on JSON-RPC, MCP provides a stateful session protocol focused on context exchange and sampling coordination between clients and servers.\n\n## Core Components\n\n### Host",
+        "metadata": {
+          "end": 447,
+          "start": 0,
+          "document_type": "specification"
+        },
+        "score": 0.7564175274123248,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "C",
+    "applied_filter": null
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "Where is an agents.json contract typically published?",
+    "expected_answer": "At /.well-known/agents.json.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 11,
+    "evidence_quote": "typically hosted at /.well-known/agents.json.",
+    "hits": [
+      {
+        "chunk_id": "survey-v3:11:0",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 11,
+        "text": "3.1.2 Domain-Specific Protocols\n\nIn addition to general-purpose agent protocols, some protocols focus on specific domains to enable targeted enhancements within those areas.\n\nagents.json (WildCardAI,2025) The agents.json specification is an open-source, machinereadable contract format designed to bridge the gap between traditional APIs and AI agents. Built atop the OpenAPI standard, it enables websites to declare AI-compatible interfaces, authentication schemes, and multi-step workflows in a str",
+        "metadata": {
+          "end": 500,
+          "start": 0,
+          "document_type": "survey"
+        },
+        "score": 0.7782832516262991,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:11:1",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 11,
+        "text": "ication schemes, and multi-step workflows in a structured JSON file, typically hosted at /.well-known/agents.json. Unlike conventional OpenAPI specs tailored for human developers, agents.json introduces constructs such as flows—predefined sequences of API calls—and links that map data dependencies between actions, facilitating reliable orchestration by large language models (LLMs). The design emphasizes statelessness, minimal modifications to existing APIs, and optimization for LLM consumption. ",
+        "metadata": {
+          "end": 950,
+          "start": 450,
+          "document_type": "survey"
+        },
+        "score": 0.7678588857608705,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "survey-v3:11:2",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 11,
+        "text": "sting APIs, and optimization for LLM consumption. By providing a clear, standardized schema for agent interaction, agents.json simplifies integration, reduces the need for prompt engineering, and enhances the discoverability and usability of APIs in agentic contexts.\n\n3.2 Inter-Agent Protocols\n\nWith the development of large language models (LLMs) and agent technologies, increasing attention has been directed toward overcoming the limitations of single-agent capabilities to address more complex t",
+        "metadata": {
+          "end": 1400,
+          "start": 900,
+          "document_type": "survey"
+        },
+        "score": 0.7419008016586304,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": false,
+    "hit3": true,
+    "strategy": "A",
+    "applied_filter": null
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "Where is an agents.json contract typically published?",
+    "expected_answer": "At /.well-known/agents.json.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 11,
+    "evidence_quote": "typically hosted at /.well-known/agents.json.",
+    "hits": [
+      {
+        "chunk_id": "survey-v3:11:1",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 11,
+        "text": "agents.json (WildCardAI,2025) The agents.json specification is an open-source, machinereadable contract format designed to bridge the gap between traditional APIs and AI agents. Built atop the OpenAPI standard, it enables websites to declare AI-compatible interfaces, authentication schemes, and multi-step workflows in a structured JSON file, typically hosted at /.well-known/agents.json.",
+        "metadata": {
+          "end": 564,
+          "start": 175,
+          "document_type": "survey"
+        },
+        "score": 0.8454279899597168,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "survey-v3:11:3",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 11,
+        "text": "By providing a clear, standardized schema for agent interaction, agents.json simplifies integration, reduces the need for prompt engineering, and enhances the discoverability and usability of APIs in agentic contexts.\n\n3.2 Inter-Agent Protocols",
+        "metadata": {
+          "end": 1194,
+          "start": 950,
+          "document_type": "survey"
+        },
+        "score": 0.7765001521408662,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:11:2",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 11,
+        "text": "Unlike conventional OpenAPI specs tailored for human developers, agents.json introduces constructs such as flows—predefined sequences of API calls—and links that map data dependencies between actions, facilitating reliable orchestration by large language models (LLMs). The design emphasizes statelessness, minimal modifications to existing APIs, and optimization for LLM consumption.",
+        "metadata": {
+          "end": 949,
+          "start": 565,
+          "document_type": "survey"
+        },
+        "score": 0.7594279050827026,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "B",
+    "applied_filter": null
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "Where is an agents.json contract typically published?",
+    "expected_answer": "At /.well-known/agents.json.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 11,
+    "evidence_quote": "typically hosted at /.well-known/agents.json.",
+    "hits": [
+      {
+        "chunk_id": "survey-v3:11:1",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 11,
+        "text": "agents.json (WildCardAI,2025) The agents.json specification is an open-source, machinereadable contract format designed to bridge the gap between traditional APIs and AI agents. Built atop the OpenAPI standard, it enables websites to declare AI-compatible interfaces, authentication schemes, and multi-step workflows in a structured JSON file, typically hosted at /.well-known/agents.json.",
+        "metadata": {
+          "end": 564,
+          "start": 175,
+          "document_type": "survey"
+        },
+        "score": 0.8454279899597168,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "survey-v3:11:3",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 11,
+        "text": "By providing a clear, standardized schema for agent interaction, agents.json simplifies integration, reduces the need for prompt engineering, and enhances the discoverability and usability of APIs in agentic contexts.\n\n3.2 Inter-Agent Protocols",
+        "metadata": {
+          "end": 1194,
+          "start": 950,
+          "document_type": "survey"
+        },
+        "score": 0.7765001521408662,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:11:2",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 11,
+        "text": "Unlike conventional OpenAPI specs tailored for human developers, agents.json introduces constructs such as flows—predefined sequences of API calls—and links that map data dependencies between actions, facilitating reliable orchestration by large language models (LLMs). The design emphasizes statelessness, minimal modifications to existing APIs, and optimization for LLM consumption.",
+        "metadata": {
+          "end": 949,
+          "start": 565,
+          "document_type": "survey"
+        },
+        "score": 0.7594279050827026,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "C",
+    "applied_filter": null
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "What identity standard does ANP use?",
+    "expected_answer": "W3C DID.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 12,
+    "evidence_quote": "W3C DID (Decentralized Identifiers) standard",
+    "hits": [
+      {
+        "chunk_id": "survey-v3:13:0",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 13,
+        "text": "utilizing the required interfaces, constructing properly formatted requests, appending authentication credentials, sending the requests, and finally processes the corresponding responses. In terms of the significance of ANP, it introduces an innovative solution for agent network communication, marking the creative concept of the Internet of Agents. Future directions include optimizing cross-platform identity authentication to improve scalability and practicality, exploring more suitable agent co",
+        "metadata": {
+          "end": 500,
+          "start": 0,
+          "document_type": "survey"
+        },
+        "score": 0.7497061640199338,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:12:2",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 12,
+        "text": "on: Agents can establish a more cost-effective and efficient collaboration network by leveraging automatic-organization and automatic-negotiation mechanisms.\n\nANP consists of three core layers:\n\n• Identity and Encrypted Communication Layer: This layer leverages the W3C DID (Decentralized Identifiers) standard to establish a decentralized identity authentication mechanism, enabling trustless, end-to-end encrypted communication. This ensures that agents across different platforms can authenticate ",
+        "metadata": {
+          "end": 1400,
+          "start": 900,
+          "document_type": "survey"
+        },
+        "score": 0.7489993572235107,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "survey-v3:25:0",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 25,
+        "text": "• MCP: Focused on providing structured context and tool integration for LLMs, emphasizing the connection between models and external resources.\n\n• ANP: Introduced decentralized identity mechanisms (e.g., W3C DID), enabling peer-to-peer communication between agents, enhancing system autonomy and flexibility.\n\n• A2A: Provided a standardized framework for collaboration between enterprise-level agents, supporting task management, message exchange, and multimodal outputs, thus facilitating cross-plat",
+        "metadata": {
+          "end": 500,
+          "start": 0,
+          "document_type": "survey"
+        },
+        "score": 0.723954753640012,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": false,
+    "hit3": true,
+    "strategy": "A",
+    "applied_filter": null
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "What identity standard does ANP use?",
+    "expected_answer": "W3C DID.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 12,
+    "evidence_quote": "W3C DID (Decentralized Identifiers) standard",
+    "hits": [
+      {
+        "chunk_id": "survey-v3:25:0",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 25,
+        "text": "• MCP: Focused on providing structured context and tool integration for LLMs, emphasizing the connection between models and external resources.\n\n• ANP: Introduced decentralized identity mechanisms (e.g., W3C DID), enabling peer-to-peer communication between agents, enhancing system autonomy and flexibility.",
+        "metadata": {
+          "end": 308,
+          "start": 0,
+          "document_type": "survey"
+        },
+        "score": 0.7373832620749926,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:27:2",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 27,
+        "text": "ANP addresses the challenges of collaboration between independent agents by formalizing the protocolbased interaction process. While A2A focuses on message-based delegation, ANP establishes clear protocols for structured requests and responses between agents.",
+        "metadata": {
+          "end": 994,
+          "start": 735,
+          "document_type": "survey"
+        },
+        "score": 0.725228326009017,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:11:11",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 11,
+        "text": "Agent Network Protocol (Chang,2024) Agent Network Protocol (ANP) is an open-source agent protocol developed by the open-source technology community, aiming to enable interoperability among various agents across heterogeneous domains. Its vision is to define standardized connection mechanisms between agents and to build an open, secure, and efficient collaborative network for",
+        "metadata": {
+          "end": 4071,
+          "start": 3694,
+          "document_type": "survey"
+        },
+        "score": 0.7052392118884122,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": false,
+    "hit3": false,
+    "strategy": "B",
+    "applied_filter": null
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "What identity standard does ANP use?",
+    "expected_answer": "W3C DID.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 12,
+    "evidence_quote": "W3C DID (Decentralized Identifiers) standard",
+    "hits": [
+      {
+        "chunk_id": "survey-v3:25:0",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 25,
+        "text": "• MCP: Focused on providing structured context and tool integration for LLMs, emphasizing the connection between models and external resources.\n\n• ANP: Introduced decentralized identity mechanisms (e.g., W3C DID), enabling peer-to-peer communication between agents, enhancing system autonomy and flexibility.",
+        "metadata": {
+          "end": 308,
+          "start": 0,
+          "document_type": "survey"
+        },
+        "score": 0.7373832620749926,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:27:2",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 27,
+        "text": "ANP addresses the challenges of collaboration between independent agents by formalizing the protocolbased interaction process. While A2A focuses on message-based delegation, ANP establishes clear protocols for structured requests and responses between agents.",
+        "metadata": {
+          "end": 994,
+          "start": 735,
+          "document_type": "survey"
+        },
+        "score": 0.725228326009017,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:11:11",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 11,
+        "text": "Agent Network Protocol (Chang,2024) Agent Network Protocol (ANP) is an open-source agent protocol developed by the open-source technology community, aiming to enable interoperability among various agents across heterogeneous domains. Its vision is to define standardized connection mechanisms between agents and to build an open, secure, and efficient collaborative network for",
+        "metadata": {
+          "end": 4071,
+          "start": 3694,
+          "document_type": "survey"
+        },
+        "score": 0.7052392118884122,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": false,
+    "hit3": false,
+    "strategy": "C",
+    "applied_filter": null
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "Which transport, message format and streaming mechanism does the survey list for A2A?",
+    "expected_answer": "HTTP(S), JSON-RPC 2.0 and SSE.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 13,
+    "evidence_quote": "HTTP(S) as the transport layer, JSON-RPC 2.0 as the messaging format, and Server-Sent Events (SSE) for streaming.",
+    "hits": [
+      {
+        "chunk_id": "survey-v3:13:5",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 13,
+        "text": " and push notifications, enabling real-time feedback, notifications and task status updates.\n\n• Modality Agnostic: A2A natively supports text, files, forms, media formats such as audio/video streams and embedded frames (iframes). This reflects the multi-modal nature of agent environments.\n\n• Opaque Execution: Agent interactions in A2A do not required to share thoughts, plans, or tools. The focus remains on context, state, instructions, and data, preserving implementation privacy and intellectual",
+        "metadata": {
+          "end": 2750,
+          "start": 2250,
+          "document_type": "survey"
+        },
+        "score": 0.7080731913912562,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:13:4",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 13,
+        "text": "ization, security, privacy, traceability, and observability. Agents can be treated as enterprise-grade applications, ensuring robustness and security in production environments.\n\n• Async-First Architecture: A2A is centered around the concept of Task, and supports long-running asynchronous workflows, including scenarios involving multi-turn human-inthe-loop interactions. It supports various asynchronous patterns such as polling, SSE-based updates, and push notifications, enabling real-time feedba",
+        "metadata": {
+          "end": 2300,
+          "start": 1800,
+          "document_type": "survey"
+        },
+        "score": 0.7045967334989677,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:21:7",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 21,
+        "text": "hereby ensuring the completeness and accuracy of data transmission. This can be evaluated by Automatic Retry Count (ARC), which indicates the number of times Agent Protocol automatically retries message transmission when it detects network issues or delivery failures.\n\nAutomatic Retry Count (ARC) = #message retransmissions when delivery fails\n\nFlow and Congestion Control Agent protocols integrate flow and congestion control mechanisms akintoTCP.Forflowcontrol, thereceivercommunicatesitsavailable",
+        "metadata": {
+          "end": 3650,
+          "start": 3150,
+          "document_type": "survey"
+        },
+        "score": 0.7007290094439159,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": false,
+    "hit3": false,
+    "strategy": "A",
+    "applied_filter": null
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "Which transport, message format and streaming mechanism does the survey list for A2A?",
+    "expected_answer": "HTTP(S), JSON-RPC 2.0 and SSE.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 13,
+    "evidence_quote": "HTTP(S) as the transport layer, JSON-RPC 2.0 as the messaging format, and Server-Sent Events (SSE) for streaming.",
+    "hits": [
+      {
+        "chunk_id": "survey-v3:13:4",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 13,
+        "text": "• Simplicity: A2A emphasizes reusing existing standards. For example, it adopts HTTP(S) as the transport layer, JSON-RPC 2.0 as the messaging format, and Server-Sent Events (SSE) for streaming. This lightweight protocol design reduces both the learning curve and implementation complexity.",
+        "metadata": {
+          "end": 1694,
+          "start": 1405,
+          "document_type": "survey"
+        },
+        "score": 0.7727489742339935,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "survey-v3:13:6",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 13,
+        "text": "• Async-First Architecture: A2A is centered around the concept of Task, and supports long-running asynchronous workflows, including scenarios involving multi-turn human-inthe-loop interactions. It supports various asynchronous patterns such as polling, SSE-based updates, and push notifications, enabling real-time feedback, notifications and task status updates.",
+        "metadata": {
+          "end": 2342,
+          "start": 1979,
+          "document_type": "survey"
+        },
+        "score": 0.725062522284689,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:13:7",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 13,
+        "text": "• Modality Agnostic: A2A natively supports text, files, forms, media formats such as audio/video streams and embedded frames (iframes). This reflects the multi-modal nature of agent environments.",
+        "metadata": {
+          "end": 2539,
+          "start": 2344,
+          "document_type": "survey"
+        },
+        "score": 0.7212275598970035,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "B",
+    "applied_filter": null
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "Which transport, message format and streaming mechanism does the survey list for A2A?",
+    "expected_answer": "HTTP(S), JSON-RPC 2.0 and SSE.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 13,
+    "evidence_quote": "HTTP(S) as the transport layer, JSON-RPC 2.0 as the messaging format, and Server-Sent Events (SSE) for streaming.",
+    "hits": [
+      {
+        "chunk_id": "survey-v3:13:4",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 13,
+        "text": "• Simplicity: A2A emphasizes reusing existing standards. For example, it adopts HTTP(S) as the transport layer, JSON-RPC 2.0 as the messaging format, and Server-Sent Events (SSE) for streaming. This lightweight protocol design reduces both the learning curve and implementation complexity.",
+        "metadata": {
+          "end": 1694,
+          "start": 1405,
+          "document_type": "survey"
+        },
+        "score": 0.7727489742339935,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "survey-v3:13:6",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 13,
+        "text": "• Async-First Architecture: A2A is centered around the concept of Task, and supports long-running asynchronous workflows, including scenarios involving multi-turn human-inthe-loop interactions. It supports various asynchronous patterns such as polling, SSE-based updates, and push notifications, enabling real-time feedback, notifications and task status updates.",
+        "metadata": {
+          "end": 2342,
+          "start": 1979,
+          "document_type": "survey"
+        },
+        "score": 0.725062522284689,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:13:7",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 13,
+        "text": "• Modality Agnostic: A2A natively supports text, files, forms, media formats such as audio/video streams and embedded frames (iframes). This reflects the multi-modal nature of agent environments.",
+        "metadata": {
+          "end": 2539,
+          "start": 2344,
+          "document_type": "survey"
+        },
+        "score": 0.7212275598970035,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "C",
+    "applied_filter": null
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "How can A2A deliver updates for long-running tasks?",
+    "expected_answer": "Polling, SSE-based updates and push notifications.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 13,
+    "evidence_quote": "polling, SSE-based updates, and push notifications",
+    "hits": [
+      {
+        "chunk_id": "survey-v3:13:4",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 13,
+        "text": "ization, security, privacy, traceability, and observability. Agents can be treated as enterprise-grade applications, ensuring robustness and security in production environments.\n\n• Async-First Architecture: A2A is centered around the concept of Task, and supports long-running asynchronous workflows, including scenarios involving multi-turn human-inthe-loop interactions. It supports various asynchronous patterns such as polling, SSE-based updates, and push notifications, enabling real-time feedba",
+        "metadata": {
+          "end": 2300,
+          "start": 1800,
+          "document_type": "survey"
+        },
+        "score": 0.7409393191337585,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "survey-v3:13:8",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 13,
+        "text": "ith each other to complete the task. The task object can be completed immediately or run for a long time. Finally, the output of the task is responsed by remote agent in artifact. A2A advances agent interoperability by introducing a standardized protocol for agent communication. It has demonstrated initial success in enabling seamless agent collaboration within enterprise environments, laying the foundation for broader and more comprehensive agent cooperation. This",
+        "metadata": {
+          "end": 4069,
+          "start": 3600,
+          "document_type": "survey"
+        },
+        "score": 0.7395650589206862,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:25:3",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 25,
+        "text": "ration among agents on the Internet; A2A offers more comprehensive support for inter agent collaboration.\n\n• Focus on Security and Performance: During the selection and implementation of protocols, attention should be paid to authentication mechanisms, data transmission security, and performance optimization to ensure the reliability and efficiency of the system.\n\n• Monitor Protocol Evolution: As agent protocols continue to develop, maintaining awareness of new protocols and versions is essentia",
+        "metadata": {
+          "end": 1850,
+          "start": 1350,
+          "document_type": "survey"
+        },
+        "score": 0.6958229749149973,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "A",
+    "applied_filter": null
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "How can A2A deliver updates for long-running tasks?",
+    "expected_answer": "Polling, SSE-based updates and push notifications.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 13,
+    "evidence_quote": "polling, SSE-based updates, and push notifications",
+    "hits": [
+      {
+        "chunk_id": "survey-v3:13:6",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 13,
+        "text": "• Async-First Architecture: A2A is centered around the concept of Task, and supports long-running asynchronous workflows, including scenarios involving multi-turn human-inthe-loop interactions. It supports various asynchronous patterns such as polling, SSE-based updates, and push notifications, enabling real-time feedback, notifications and task status updates.",
+        "metadata": {
+          "end": 2342,
+          "start": 1979,
+          "document_type": "survey"
+        },
+        "score": 0.7751846313476562,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "survey-v3:25:1",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 25,
+        "text": "• A2A: Provided a standardized framework for collaboration between enterprise-level agents, supporting task management, message exchange, and multimodal outputs, thus facilitating cross-platform and multi-vendor agent collaboration.",
+        "metadata": {
+          "end": 542,
+          "start": 310,
+          "document_type": "survey"
+        },
+        "score": 0.7244910165970925,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:13:10",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 13,
+        "text": "First, remote agents advertise their capabilities using an “Agent Card” in JSON format, allowing the client agent to identify the best agent that can perform the task. Then they leverage A2A to communicate with each other to complete the task. The task object can be completed immediately or run for a long time. Finally, the output of the task is responsed by remote agent in artifact. A2A advances agent interoperability by introducing a standardized protocol for agent communication.",
+        "metadata": {
+          "end": 3879,
+          "start": 3393,
+          "document_type": "survey"
+        },
+        "score": 0.7068622533596918,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "B",
+    "applied_filter": null
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "How can A2A deliver updates for long-running tasks?",
+    "expected_answer": "Polling, SSE-based updates and push notifications.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 13,
+    "evidence_quote": "polling, SSE-based updates, and push notifications",
+    "hits": [
+      {
+        "chunk_id": "survey-v3:13:6",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 13,
+        "text": "• Async-First Architecture: A2A is centered around the concept of Task, and supports long-running asynchronous workflows, including scenarios involving multi-turn human-inthe-loop interactions. It supports various asynchronous patterns such as polling, SSE-based updates, and push notifications, enabling real-time feedback, notifications and task status updates.",
+        "metadata": {
+          "end": 2342,
+          "start": 1979,
+          "document_type": "survey"
+        },
+        "score": 0.7751846313476562,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "survey-v3:25:1",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 25,
+        "text": "• A2A: Provided a standardized framework for collaboration between enterprise-level agents, supporting task management, message exchange, and multimodal outputs, thus facilitating cross-platform and multi-vendor agent collaboration.",
+        "metadata": {
+          "end": 542,
+          "start": 310,
+          "document_type": "survey"
+        },
+        "score": 0.7244910165970925,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:13:10",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 13,
+        "text": "First, remote agents advertise their capabilities using an “Agent Card” in JSON format, allowing the client agent to identify the best agent that can perform the task. Then they leverage A2A to communicate with each other to complete the task. The task object can be completed immediately or run for a long time. Finally, the output of the task is responsed by remote agent in artifact. A2A advances agent interoperability by introducing a standardized protocol for agent communication.",
+        "metadata": {
+          "end": 3879,
+          "start": 3393,
+          "document_type": "survey"
+        },
+        "score": 0.7068622533596918,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "C",
+    "applied_filter": null
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "What three goals form the Agent Communication Trilemma?",
+    "expected_answer": "Versatility, efficiency and portability.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 15,
+    "evidence_quote": "versatility, efficiency, and portability form the Agent Communication Trilemma",
+    "hits": [
+      {
+        "chunk_id": "survey-v3:15:3",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 15,
+        "text": "y, and portability form the Agent Communication Trilemma. Versatility requires communication to support various message types and formats to accommodate different task scenarios, yet this increases the complexity of the protocol, raises implementation difficulty and costs, and results in diminished portability. Efficiency demands low computational and network costs for communication and minimize ambiguity that could lead to potential errors, but highly flexible communication mechanisms frequentl",
+        "metadata": {
+          "end": 1850,
+          "start": 1350,
+          "document_type": "survey"
+        },
+        "score": 0.7677994599282584,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:15:5",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 15,
+        "text": " optimize all of them simultaneously. In order to address the Agent Communication Trilemma, Agora leverages the capabilities of LLMs in natural language understanding, code generation, and autonomous negotiation, thereby enabling agents to adopt various communication protocols based on context. Frequent communications employ structured protocols to ensure efficiency, while infrequent ones rely on structured data with routines generated by the LLM. In the event of rare communications or failures,",
+        "metadata": {
+          "end": 2750,
+          "start": 2250,
+          "document_type": "survey"
+        },
+        "score": 0.7616397369396611,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:13:0",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 13,
+        "text": "utilizing the required interfaces, constructing properly formatted requests, appending authentication credentials, sending the requests, and finally processes the corresponding responses. In terms of the significance of ANP, it introduces an innovative solution for agent network communication, marking the creative concept of the Internet of Agents. Future directions include optimizing cross-platform identity authentication to improve scalability and practicality, exploring more suitable agent co",
+        "metadata": {
+          "end": 500,
+          "start": 0,
+          "document_type": "survey"
+        },
+        "score": 0.7410512345716019,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": false,
+    "hit3": false,
+    "strategy": "A",
+    "applied_filter": null
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "What three goals form the Agent Communication Trilemma?",
+    "expected_answer": "Versatility, efficiency and portability.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 15,
+    "evidence_quote": "versatility, efficiency, and portability form the Agent Communication Trilemma",
+    "hits": [
+      {
+        "chunk_id": "survey-v3:15:3",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 15,
+        "text": "In LLM agent communication, versatility, efficiency, and portability form the Agent Communication Trilemma. Versatility requires communication to support various message types and formats to accommodate different task scenarios, yet this increases the complexity of the protocol, raises implementation difficulty and costs, and results in diminished portability.",
+        "metadata": {
+          "end": 1662,
+          "start": 1300,
+          "document_type": "survey"
+        },
+        "score": 0.8071899184214986,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "survey-v3:15:6",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 15,
+        "text": "In order to address the Agent Communication Trilemma, Agora leverages the capabilities of LLMs in natural language understanding, code generation, and autonomous negotiation, thereby enabling agents to adopt various communication protocols based on context. Frequent communications employ structured protocols to ensure efficiency, while infrequent ones rely on structured data with routines generated by the LLM.",
+        "metadata": {
+          "end": 2701,
+          "start": 2288,
+          "document_type": "survey"
+        },
+        "score": 0.7837550535421113,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:28:9",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 28,
+        "text": "Agents could be enabled to retrieve specific protocol modules or combine elements from multiple protocols to construct a customized communication strategy tailored to the requirements of the current task. Moreover, agents may be trained to discover optimal protocol variations or negotiation strategies that enhance communication efficiency or increase task success over time.",
+        "metadata": {
+          "end": 3873,
+          "start": 3497,
+          "document_type": "survey"
+        },
+        "score": 0.7601005065471088,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "B",
+    "applied_filter": null
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "What three goals form the Agent Communication Trilemma?",
+    "expected_answer": "Versatility, efficiency and portability.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 15,
+    "evidence_quote": "versatility, efficiency, and portability form the Agent Communication Trilemma",
+    "hits": [
+      {
+        "chunk_id": "survey-v3:15:3",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 15,
+        "text": "In LLM agent communication, versatility, efficiency, and portability form the Agent Communication Trilemma. Versatility requires communication to support various message types and formats to accommodate different task scenarios, yet this increases the complexity of the protocol, raises implementation difficulty and costs, and results in diminished portability.",
+        "metadata": {
+          "end": 1662,
+          "start": 1300,
+          "document_type": "survey"
+        },
+        "score": 0.8071899184214986,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "survey-v3:15:6",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 15,
+        "text": "In order to address the Agent Communication Trilemma, Agora leverages the capabilities of LLMs in natural language understanding, code generation, and autonomous negotiation, thereby enabling agents to adopt various communication protocols based on context. Frequent communications employ structured protocols to ensure efficiency, while infrequent ones rely on structured data with routines generated by the LLM.",
+        "metadata": {
+          "end": 2701,
+          "start": 2288,
+          "document_type": "survey"
+        },
+        "score": 0.7837550535421113,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:28:9",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 28,
+        "text": "Agents could be enabled to retrieve specific protocol modules or combine elements from multiple protocols to construct a customized communication strategy tailored to the requirements of the current task. Moreover, agents may be trained to discover optimal protocol variations or negotiation strategies that enhance communication efficiency or increase task success over time.",
+        "metadata": {
+          "end": 3873,
+          "start": 3497,
+          "document_type": "survey"
+        },
+        "score": 0.7601005065471088,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "C",
+    "applied_filter": null
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "How does the survey define throughput?",
+    "expected_answer": "Messages or tasks processed per second.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 20,
+    "evidence_quote": "the number of messages or tasks processed per second",
+    "hits": [
+      {
+        "chunk_id": "survey-v3:20:1",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 20,
+        "text": " layers. Testing involves measuring round-trip times across network conditions (e.g., low bandwidth, high latency).\n\nThroughput Throughput, quantified as the number of messages or tasks processed per second, assesses a protocol’s capacity to handle concurrent interactions in agentic systems. High throughput is essential for scaling to large agent networks, as messages may include complex metadata, which reduces throughput compared to traditional protocols that handle simpler payloads. To evaluat",
+        "metadata": {
+          "end": 950,
+          "start": 450,
+          "document_type": "survey"
+        },
+        "score": 0.7765215172456804,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "survey-v3:20:2",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 20,
+        "text": "protocols that handle simpler payloads. To evaluate this capability, we provide a metric called Throughput per Second at concurrency level N (TPS-N).\n\nTPS-N = #Processed MessagesElapsed Time\n\nResource Utilization Resource utilization evaluates the protocol’s consumption of computational resources, including header size and token consumption (for LLM-driven tasks), alongside CPU, memory, and bandwidth usage. Token consumption measures the number of tokens consumed by LLM-driven tasks, such as sem",
+        "metadata": {
+          "end": 1400,
+          "start": 900,
+          "document_type": "survey"
+        },
+        "score": 0.7069877982139587,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:20:8",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 20,
+        "text": " increasing network size. To capture this, we provide a metric called Capability Negotiation Score (CNS), which is evaluated by measuring the success rate and time required for negotiations as the number of nodes increases.\n\nCNS = #Successful Negotiations/#Negotiation AttemptsAverage Negotiation Time",
+        "metadata": {
+          "end": 3901,
+          "start": 3600,
+          "document_type": "survey"
+        },
+        "score": 0.6731826066970825,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "A",
+    "applied_filter": null
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "How does the survey define throughput?",
+    "expected_answer": "Messages or tasks processed per second.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 20,
+    "evidence_quote": "the number of messages or tasks processed per second",
+    "hits": [
+      {
+        "chunk_id": "survey-v3:20:1",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 20,
+        "text": "Testing involves measuring round-trip times across network conditions (e.g., low bandwidth, high latency).\n\nThroughput Throughput, quantified as the number of messages or tasks processed per second, assesses a protocol’s capacity to handle concurrent interactions in agentic systems. High throughput is essential for scaling to large agent networks, as messages may include complex metadata, which reduces throughput compared to traditional protocols that handle simpler payloads.",
+        "metadata": {
+          "end": 939,
+          "start": 459,
+          "document_type": "survey"
+        },
+        "score": 0.7860061185352717,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "survey-v3:20:2",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 20,
+        "text": "To evaluate this capability, we provide a metric called Throughput per Second at concurrency level N (TPS-N).\n\nTPS-N = #Processed MessagesElapsed Time\n\nResource Utilization Resource utilization evaluates the protocol’s consumption of computational resources, including header size and token consumption (for LLM-driven tasks), alongside CPU, memory, and bandwidth usage.",
+        "metadata": {
+          "end": 1310,
+          "start": 940,
+          "document_type": "survey"
+        },
+        "score": 0.702623170770597,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:22:0",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 22,
+        "text": "initially probes network capacity with a small congestion window, incrementally increasing it based on feedback. Upon detecting packet loss or increased latency indicative of network congestion, the sender reduces its congestion window to diminish transmission rates. These coordinated mechanisms enable efficient data transfer while maintaining network stability and preventing resource exhaustion.",
+        "metadata": {
+          "end": 399,
+          "start": 0,
+          "document_type": "survey"
+        },
+        "score": 0.6742540597915649,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "B",
+    "applied_filter": null
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "How does the survey define throughput?",
+    "expected_answer": "Messages or tasks processed per second.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 20,
+    "evidence_quote": "the number of messages or tasks processed per second",
+    "hits": [
+      {
+        "chunk_id": "survey-v3:20:1",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 20,
+        "text": "Testing involves measuring round-trip times across network conditions (e.g., low bandwidth, high latency).\n\nThroughput Throughput, quantified as the number of messages or tasks processed per second, assesses a protocol’s capacity to handle concurrent interactions in agentic systems. High throughput is essential for scaling to large agent networks, as messages may include complex metadata, which reduces throughput compared to traditional protocols that handle simpler payloads.",
+        "metadata": {
+          "end": 939,
+          "start": 459,
+          "document_type": "survey"
+        },
+        "score": 0.7860061185352717,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "survey-v3:20:2",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 20,
+        "text": "To evaluate this capability, we provide a metric called Throughput per Second at concurrency level N (TPS-N).\n\nTPS-N = #Processed MessagesElapsed Time\n\nResource Utilization Resource utilization evaluates the protocol’s consumption of computational resources, including header size and token consumption (for LLM-driven tasks), alongside CPU, memory, and bandwidth usage.",
+        "metadata": {
+          "end": 1310,
+          "start": 940,
+          "document_type": "survey"
+        },
+        "score": 0.702623170770597,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:22:0",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 22,
+        "text": "initially probes network capacity with a small congestion window, incrementally increasing it based on feedback. Upon detecting packet loss or increased latency indicative of network congestion, the sender reduces its congestion window to diminish transmission rates. These coordinated mechanisms enable efficient data transfer while maintaining network stability and preventing resource exhaustion.",
+        "metadata": {
+          "end": 399,
+          "start": 0,
+          "document_type": "survey"
+        },
+        "score": 0.6742540597915649,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "C",
+    "applied_filter": null
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "What three levels of permission granularity are examples for Role/ACL?",
+    "expected_answer": "Field-level, endpoint-level and task-level.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 21,
+    "evidence_quote": "field-level, endpoint-level, or task-level",
+    "hits": [
+      {
+        "chunk_id": "survey-v3:21:2",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 21,
+        "text": " applicability to agent-to-agent and agent-to-tool scenarios.\n\nRole/ACL Granularity Role/Access Control List (ACL) granularity measures the protocol’s ability to enforce fine-grained access controls, specifying permissions at varying levels, such as field-level, endpoint-level, or task-level. This metric can be evaluated by analyzing the precision of role definitions and ACL configurations, such as whether an agent can access specific data fields in a tool’s response or particular task endpoints",
+        "metadata": {
+          "end": 1400,
+          "start": 900,
+          "document_type": "survey"
+        },
+        "score": 0.8575418591499329,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "survey-v3:25:0",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 25,
+        "text": "• MCP: Focused on providing structured context and tool integration for LLMs, emphasizing the connection between models and external resources.\n\n• ANP: Introduced decentralized identity mechanisms (e.g., W3C DID), enabling peer-to-peer communication between agents, enhancing system autonomy and flexibility.\n\n• A2A: Provided a standardized framework for collaboration between enterprise-level agents, supporting task management, message exchange, and multimodal outputs, thus facilitating cross-plat",
+        "metadata": {
+          "end": 500,
+          "start": 0,
+          "document_type": "survey"
+        },
+        "score": 0.6849335023800444,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:15:9",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 15,
+        "text": "These protocols are designed to address the unique requirements and constraints of each interaction context, ensuring robust, interpretable, and ethically aligned behavior. In this section, we categorize domain-specific protocols into three primary branches: (1) Human–Agent Interaction",
+        "metadata": {
+          "end": 4336,
+          "start": 4050,
+          "document_type": "survey"
+        },
+        "score": 0.6811636686325073,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "A",
+    "applied_filter": null
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "What three levels of permission granularity are examples for Role/ACL?",
+    "expected_answer": "Field-level, endpoint-level and task-level.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 21,
+    "evidence_quote": "field-level, endpoint-level, or task-level",
+    "hits": [
+      {
+        "chunk_id": "survey-v3:21:3",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 21,
+        "text": "Role/ACL Granularity Role/Access Control List (ACL) granularity measures the protocol’s ability to enforce fine-grained access controls, specifying permissions at varying levels, such as field-level, endpoint-level, or task-level. This metric can be evaluated by analyzing the precision of role definitions and ACL configurations, such as whether an agent can access specific data fields in a tool’s response or particular task endpoints.",
+        "metadata": {
+          "end": 1401,
+          "start": 963,
+          "document_type": "survey"
+        },
+        "score": 0.8635676679224705,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "survey-v3:10:7",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 10,
+        "text": "In this scenario, users of cloud-based LLMs are required to upload their private information to the cloud, posing significant data security risks. Consequently, decoupling tool invocations from LLM responses to mitigate these security concerns is one of the challenges currently faced by LLM agents. MCP enhances privacy and security in context acquisition by decoupling tool invocation from LLM responses.",
+        "metadata": {
+          "end": 3230,
+          "start": 2824,
+          "document_type": "survey"
+        },
+        "score": 0.6843639016151428,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:25:0",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 25,
+        "text": "• MCP: Focused on providing structured context and tool integration for LLMs, emphasizing the connection between models and external resources.\n\n• ANP: Introduced decentralized identity mechanisms (e.g., W3C DID), enabling peer-to-peer communication between agents, enhancing system autonomy and flexibility.",
+        "metadata": {
+          "end": 308,
+          "start": 0,
+          "document_type": "survey"
+        },
+        "score": 0.6833663175483765,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "B",
+    "applied_filter": null
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "What three levels of permission granularity are examples for Role/ACL?",
+    "expected_answer": "Field-level, endpoint-level and task-level.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 21,
+    "evidence_quote": "field-level, endpoint-level, or task-level",
+    "hits": [
+      {
+        "chunk_id": "survey-v3:21:3",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 21,
+        "text": "Role/ACL Granularity Role/Access Control List (ACL) granularity measures the protocol’s ability to enforce fine-grained access controls, specifying permissions at varying levels, such as field-level, endpoint-level, or task-level. This metric can be evaluated by analyzing the precision of role definitions and ACL configurations, such as whether an agent can access specific data fields in a tool’s response or particular task endpoints.",
+        "metadata": {
+          "end": 1401,
+          "start": 963,
+          "document_type": "survey"
+        },
+        "score": 0.8635676679224705,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "survey-v3:10:7",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 10,
+        "text": "In this scenario, users of cloud-based LLMs are required to upload their private information to the cloud, posing significant data security risks. Consequently, decoupling tool invocations from LLM responses to mitigate these security concerns is one of the challenges currently faced by LLM agents. MCP enhances privacy and security in context acquisition by decoupling tool invocation from LLM responses.",
+        "metadata": {
+          "end": 3230,
+          "start": 2824,
+          "document_type": "survey"
+        },
+        "score": 0.6843639016151428,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:25:0",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 25,
+        "text": "• MCP: Focused on providing structured context and tool integration for LLMs, emphasizing the connection between models and external resources.\n\n• ANP: Introduced decentralized identity mechanisms (e.g., W3C DID), enabling peer-to-peer communication between agents, enhancing system autonomy and flexibility.",
+        "metadata": {
+          "end": 308,
+          "start": 0,
+          "document_type": "survey"
+        },
+        "score": 0.6833663175483765,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "C",
+    "applied_filter": null
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "Why can persistent connections improve transmission efficiency?",
+    "expected_answer": "They avoid repeated setup and teardown.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 22,
+    "evidence_quote": "persistent connections eliminate the overhead of frequent connection setup and teardown",
+    "hits": [
+      {
+        "chunk_id": "survey-v3:22:2",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 22,
+        "text": "on for each interaction, persistent connections eliminate the overhead of frequent connection setup and teardown, reducing latency and improving transmission efficiency. The stability of connections can be evaluated by Unexpected Disconnection Rate (UDR), which gives the number of unexpected disconnections per unit time and Message-Loss Rate (MLR), which refers to the proportion of messages that fail to reach the recipient agent within a specified timeframe out of the total number of messages se",
+        "metadata": {
+          "end": 1400,
+          "start": 900,
+          "document_type": "survey"
+        },
+        "score": 0.8296135765544443,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "survey-v3:19:5",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 19,
+        "text": "e, and fault-tolerant com- • Packet Retransmission Reliability munication. • Flow and Congestion Control • Persistent Connections Evolution for new features without disrupting • Backward Compatibility Extensibility existing systems or compatibility. • Flexibility & Adaptability • Customization & Extension • Protocol Stack Code Volume Operability The ease of implementing, managing, and in- • Deployment & Configureation tegrating the protocol in real-world systems. Complexity • Observability Seaml",
+        "metadata": {
+          "end": 2750,
+          "start": 2250,
+          "document_type": "survey"
+        },
+        "score": 0.7487530708312988,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:22:0",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 22,
+        "text": "initially probes network capacity with a small congestion window, incrementally increasing it based on feedback. Upon detecting packet loss or increased latency indicative of network congestion, the sender reduces its congestion window to diminish transmission rates. These coordinated mechanisms enable efficient data transfer while maintaining network stability and preventing resource exhaustion. This control ability can be evaluated by Convergence Time (CT), which refers to the time required to",
+        "metadata": {
+          "end": 500,
+          "start": 0,
+          "document_type": "survey"
+        },
+        "score": 0.7339653372764587,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "A",
+    "applied_filter": null
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "Why can persistent connections improve transmission efficiency?",
+    "expected_answer": "They avoid repeated setup and teardown.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 22,
+    "evidence_quote": "persistent connections eliminate the overhead of frequent connection setup and teardown",
+    "hits": [
+      {
+        "chunk_id": "survey-v3:22:2",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 22,
+        "text": "Persistent Connections Agent protocols can establish persistent connections between agents, allowing communication channels to remain open for multiple data transmissions. Unlike creating a new connection for each interaction, persistent connections eliminate the overhead of frequent connection setup and teardown, reducing latency and improving transmission efficiency.",
+        "metadata": {
+          "end": 1069,
+          "start": 698,
+          "document_type": "survey"
+        },
+        "score": 0.8283500671386719,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "survey-v3:19:6",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 19,
+        "text": "• Context Desensitization Mechanism Consistent, accurate, and fault-tolerant com- • Packet Retransmission Reliability munication. • Flow and Congestion Control • Persistent Connections Evolution for new features without disrupting • Backward Compatibility Extensibility existing systems or compatibility.",
+        "metadata": {
+          "end": 2499,
+          "start": 2195,
+          "document_type": "survey"
+        },
+        "score": 0.7799183595131863,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:22:0",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 22,
+        "text": "initially probes network capacity with a small congestion window, incrementally increasing it based on feedback. Upon detecting packet loss or increased latency indicative of network congestion, the sender reduces its congestion window to diminish transmission rates. These coordinated mechanisms enable efficient data transfer while maintaining network stability and preventing resource exhaustion.",
+        "metadata": {
+          "end": 399,
+          "start": 0,
+          "document_type": "survey"
+        },
+        "score": 0.7614908814430237,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "B",
+    "applied_filter": null
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "Why can persistent connections improve transmission efficiency?",
+    "expected_answer": "They avoid repeated setup and teardown.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 22,
+    "evidence_quote": "persistent connections eliminate the overhead of frequent connection setup and teardown",
+    "hits": [
+      {
+        "chunk_id": "survey-v3:22:2",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 22,
+        "text": "Persistent Connections Agent protocols can establish persistent connections between agents, allowing communication channels to remain open for multiple data transmissions. Unlike creating a new connection for each interaction, persistent connections eliminate the overhead of frequent connection setup and teardown, reducing latency and improving transmission efficiency.",
+        "metadata": {
+          "end": 1069,
+          "start": 698,
+          "document_type": "survey"
+        },
+        "score": 0.8283500671386719,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "survey-v3:19:6",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 19,
+        "text": "• Context Desensitization Mechanism Consistent, accurate, and fault-tolerant com- • Packet Retransmission Reliability munication. • Flow and Congestion Control • Persistent Connections Evolution for new features without disrupting • Backward Compatibility Extensibility existing systems or compatibility.",
+        "metadata": {
+          "end": 2499,
+          "start": 2195,
+          "document_type": "survey"
+        },
+        "score": 0.7799183595131863,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:22:0",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 22,
+        "text": "initially probes network capacity with a small congestion window, incrementally increasing it based on feedback. Upon detecting packet loss or increased latency indicative of network congestion, the sender reduces its congestion window to diminish transmission rates. These coordinated mechanisms enable efficient data transfer while maintaining network stability and preventing resource exhaustion.",
+        "metadata": {
+          "end": 399,
+          "start": 0,
+          "document_type": "survey"
+        },
+        "score": 0.7614908814430237,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "C",
+    "applied_filter": null
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "In the official MCP architecture specification, what relationship does each client have with its server?",
+    "expected_answer": "One-to-one with a particular server.",
+    "gold_source_id": "mcp-architecture",
+    "gold_page": 1,
+    "evidence_quote": "each client having a 1:1 relationship with a particular server.",
+    "filter": {
+      "document_type": "specification"
+    },
+    "hits": [
+      {
+        "chunk_id": "mcp-architecture:1:0",
+        "document_id": "mcp-architecture",
+        "source": "https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/docs/specification/2025-03-26/architecture/index.mdx",
+        "page": 1,
+        "text": "The Model Context Protocol (MCP) follows a client-host-server architecture where each host can run multiple client instances. This architecture enables users to integrate AI capabilities across applications while maintaining clear security boundaries and isolating concerns. Built on JSON-RPC, MCP provides a stateful session protocol focused on context exchange and sampling coordination between clients and servers.\n\n## Core Components\n\n### Host\n\nThe host process acts as the container and coordina",
+        "metadata": {
+          "end": 500,
+          "start": 0,
+          "document_type": "specification"
+        },
+        "score": 0.8270781739307553,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:9:3",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 9,
+        "text": "to tool usage for LLM agents, making it easier for them to integrate a wide range of new tools. In addition, the client-server architecture of MCP decouples tool invocation from LLM responses, reducing the risk of data leakage. The following discussion will proceed to introduce the fundamental structure and process of the MCP protocol. The utilisation of the MCP protocol for tool usage can be characterised by the presence of four distinct components, namely Host, Client, Server and Resource.\n\nEn",
+        "metadata": {
+          "end": 1850,
+          "start": 1350,
+          "document_type": "survey"
+        },
+        "score": 0.8241323828697205,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "mcp-architecture:1:2",
+        "document_id": "mcp-architecture",
+        "source": "https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/docs/specification/2025-03-26/architecture/index.mdx",
+        "page": 1,
+        "text": "s one stateful session per server - Handles protocol negotiation and capability exchange - Routes protocol messages bidirectionally - Manages subscriptions and notifications - Maintains security boundaries between servers\n\nA host application creates and manages multiple clients, with each client having a 1:1 relationship with a particular server.\n\n### Servers\n\nServers provide specialized context and capabilities:\n\n- Expose resources, tools and prompts via MCP primitives - Operate independently w",
+        "metadata": {
+          "end": 1400,
+          "start": 900,
+          "document_type": "specification"
+        },
+        "score": 0.8236302733421326,
+        "evidence_hit": true
+      }
+    ],
+    "hit1": false,
+    "hit3": true,
+    "strategy": "A",
+    "applied_filter": null
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "In the official MCP architecture specification, what relationship does each client have with its server?",
+    "expected_answer": "One-to-one with a particular server.",
+    "gold_source_id": "mcp-architecture",
+    "gold_page": 1,
+    "evidence_quote": "each client having a 1:1 relationship with a particular server.",
+    "filter": {
+      "document_type": "specification"
+    },
+    "hits": [
+      {
+        "chunk_id": "mcp-architecture:1:0",
+        "document_id": "mcp-architecture",
+        "source": "https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/docs/specification/2025-03-26/architecture/index.mdx",
+        "page": 1,
+        "text": "The Model Context Protocol (MCP) follows a client-host-server architecture where each host can run multiple client instances. This architecture enables users to integrate AI capabilities across applications while maintaining clear security boundaries and isolating concerns. Built on JSON-RPC, MCP provides a stateful session protocol focused on context exchange and sampling coordination between clients and servers.\n\n## Core Components\n\n### Host",
+        "metadata": {
+          "end": 447,
+          "start": 0,
+          "document_type": "specification"
+        },
+        "score": 0.8277544975280762,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:9:4",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 9,
+        "text": "The following discussion will proceed to introduce the fundamental structure and process of the MCP protocol. The utilisation of the MCP protocol for tool usage can be characterised by the presence of four distinct components, namely Host, Client, Server and Resource.",
+        "metadata": {
+          "end": 1846,
+          "start": 1578,
+          "document_type": "survey"
+        },
+        "score": 0.8057043552398682,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "mcp-lifecycle:1:0",
+        "document_id": "mcp-lifecycle",
+        "source": "https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/docs/specification/2025-03-26/basic/lifecycle.mdx",
+        "page": 1,
+        "text": "The Model Context Protocol (MCP) defines a rigorous lifecycle for client-server connections that ensures proper capability negotiation and state management.\n\n1. **Initialization**: Capability negotiation and protocol version agreement 2. **Operation**: Normal protocol communication 3. **Shutdown**: Graceful termination of the connection\n\n## Lifecycle Phases\n\n### Initialization",
+        "metadata": {
+          "end": 379,
+          "start": 0,
+          "document_type": "specification"
+        },
+        "score": 0.7942217588424683,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": false,
+    "hit3": false,
+    "strategy": "B",
+    "applied_filter": null
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "In the official MCP architecture specification, what relationship does each client have with its server?",
+    "expected_answer": "One-to-one with a particular server.",
+    "gold_source_id": "mcp-architecture",
+    "gold_page": 1,
+    "evidence_quote": "each client having a 1:1 relationship with a particular server.",
+    "filter": {
+      "document_type": "specification"
+    },
+    "hits": [
+      {
+        "chunk_id": "mcp-architecture:1:0",
+        "document_id": "mcp-architecture",
+        "source": "https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/docs/specification/2025-03-26/architecture/index.mdx",
+        "page": 1,
+        "text": "The Model Context Protocol (MCP) follows a client-host-server architecture where each host can run multiple client instances. This architecture enables users to integrate AI capabilities across applications while maintaining clear security boundaries and isolating concerns. Built on JSON-RPC, MCP provides a stateful session protocol focused on context exchange and sampling coordination between clients and servers.\n\n## Core Components\n\n### Host",
+        "metadata": {
+          "end": 447,
+          "start": 0,
+          "document_type": "specification"
+        },
+        "score": 0.8277544975280762,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "mcp-lifecycle:1:0",
+        "document_id": "mcp-lifecycle",
+        "source": "https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/docs/specification/2025-03-26/basic/lifecycle.mdx",
+        "page": 1,
+        "text": "The Model Context Protocol (MCP) defines a rigorous lifecycle for client-server connections that ensures proper capability negotiation and state management.\n\n1. **Initialization**: Capability negotiation and protocol version agreement 2. **Operation**: Normal protocol communication 3. **Shutdown**: Graceful termination of the connection\n\n## Lifecycle Phases\n\n### Initialization",
+        "metadata": {
+          "end": 379,
+          "start": 0,
+          "document_type": "specification"
+        },
+        "score": 0.7942217588424683,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "mcp-architecture:1:3",
+        "document_id": "mcp-architecture",
+        "source": "https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/docs/specification/2025-03-26/architecture/index.mdx",
+        "page": 1,
+        "text": "- Expose resources, tools and prompts via MCP primitives - Operate independently with focused responsibilities - Request sampling through client interfaces - Must respect security constraints - Can be local processes or remote services\n\n## Design Principles\n\nMCP is built on several key design principles that inform its architecture and implementation:",
+        "metadata": {
+          "end": 1671,
+          "start": 1318,
+          "document_type": "specification"
+        },
+        "score": 0.7699427008628845,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": false,
+    "hit3": false,
+    "strategy": "C",
+    "applied_filter": {
+      "document_type": "specification"
+    }
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "In the official MCP lifecycle specification, which interaction must happen first?",
+    "expected_answer": "Initialization.",
+    "gold_source_id": "mcp-lifecycle",
+    "gold_page": 1,
+    "evidence_quote": "The initialization phase **MUST** be the first interaction between client and server.",
+    "filter": {
+      "document_type": "specification"
+    },
+    "hits": [
+      {
+        "chunk_id": "mcp-lifecycle:1:0",
+        "document_id": "mcp-lifecycle",
+        "source": "https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/docs/specification/2025-03-26/basic/lifecycle.mdx",
+        "page": 1,
+        "text": "The Model Context Protocol (MCP) defines a rigorous lifecycle for client-server connections that ensures proper capability negotiation and state management.\n\n1. **Initialization**: Capability negotiation and protocol version agreement 2. **Operation**: Normal protocol communication 3. **Shutdown**: Graceful termination of the connection\n\n## Lifecycle Phases\n\n### Initialization\n\nThe initialization phase **MUST** be the first interaction between client and server. During this phase, the client and",
+        "metadata": {
+          "end": 500,
+          "start": 0,
+          "document_type": "specification"
+        },
+        "score": 0.8245612628627204,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "survey-v3:10:3",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 10,
+        "text": " resources as specified and subsequently transmits the obtained context to the client, which then passes it on to the host. In the response phase of the MCP cycle, the host combines the context obtained to formulate a reply to the user query, thereby completing the cycle. MCPaddressesfragmentationintheLLMecosystembyintroducingapubliclystandardizedinvocation protocol that decouples tool usage from specific base LLM providers and context providers interfaces. By aligning tool invocation with MCP, ",
+        "metadata": {
+          "end": 1850,
+          "start": 1350,
+          "document_type": "survey"
+        },
+        "score": 0.7413519841835498,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:10:4",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 10,
+        "text": "interfaces. By aligning tool invocation with MCP, base LLM providers avoid implementing proprietary formats, thereby enabling greater interoperability and seamless switching between models. Concurrently, context providers support MCP through a one-time integration process, thereby enabling any MCPcompatible LLM agent to access their services. This standardization has been shown to have a significant impact on development and maintenance costs, whilst concomitantly improving scalability and cross",
+        "metadata": {
+          "end": 2300,
+          "start": 1800,
+          "document_type": "survey"
+        },
+        "score": 0.7409078545189969,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "A",
+    "applied_filter": null
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "In the official MCP lifecycle specification, which interaction must happen first?",
+    "expected_answer": "Initialization.",
+    "gold_source_id": "mcp-lifecycle",
+    "gold_page": 1,
+    "evidence_quote": "The initialization phase **MUST** be the first interaction between client and server.",
+    "filter": {
+      "document_type": "specification"
+    },
+    "hits": [
+      {
+        "chunk_id": "mcp-lifecycle:1:0",
+        "document_id": "mcp-lifecycle",
+        "source": "https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/docs/specification/2025-03-26/basic/lifecycle.mdx",
+        "page": 1,
+        "text": "The Model Context Protocol (MCP) defines a rigorous lifecycle for client-server connections that ensures proper capability negotiation and state management.\n\n1. **Initialization**: Capability negotiation and protocol version agreement 2. **Operation**: Normal protocol communication 3. **Shutdown**: Graceful termination of the connection\n\n## Lifecycle Phases\n\n### Initialization",
+        "metadata": {
+          "end": 379,
+          "start": 0,
+          "document_type": "specification"
+        },
+        "score": 0.8116023186326722,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:10:5",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 10,
+        "text": "Concurrently, context providers support MCP through a one-time integration process, thereby enabling any MCPcompatible LLM agent to access their services. This standardization has been shown to have a significant impact on development and maintenance costs, whilst concomitantly improving scalability and cross-platform compatibility. Additionally, MCP reduces data security risks arised from the coupling of tool invocations in function-calling style with LLM responses.",
+        "metadata": {
+          "end": 2461,
+          "start": 1990,
+          "document_type": "survey"
+        },
+        "score": 0.746806904483253,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "mcp-architecture:1:0",
+        "document_id": "mcp-architecture",
+        "source": "https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/docs/specification/2025-03-26/architecture/index.mdx",
+        "page": 1,
+        "text": "The Model Context Protocol (MCP) follows a client-host-server architecture where each host can run multiple client instances. This architecture enables users to integrate AI capabilities across applications while maintaining clear security boundaries and isolating concerns. Built on JSON-RPC, MCP provides a stateful session protocol focused on context exchange and sampling coordination between clients and servers.\n\n## Core Components\n\n### Host",
+        "metadata": {
+          "end": 447,
+          "start": 0,
+          "document_type": "specification"
+        },
+        "score": 0.7338761309944434,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": false,
+    "hit3": false,
+    "strategy": "B",
+    "applied_filter": null
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "In the official MCP lifecycle specification, which interaction must happen first?",
+    "expected_answer": "Initialization.",
+    "gold_source_id": "mcp-lifecycle",
+    "gold_page": 1,
+    "evidence_quote": "The initialization phase **MUST** be the first interaction between client and server.",
+    "filter": {
+      "document_type": "specification"
+    },
+    "hits": [
+      {
+        "chunk_id": "mcp-lifecycle:1:0",
+        "document_id": "mcp-lifecycle",
+        "source": "https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/docs/specification/2025-03-26/basic/lifecycle.mdx",
+        "page": 1,
+        "text": "The Model Context Protocol (MCP) defines a rigorous lifecycle for client-server connections that ensures proper capability negotiation and state management.\n\n1. **Initialization**: Capability negotiation and protocol version agreement 2. **Operation**: Normal protocol communication 3. **Shutdown**: Graceful termination of the connection\n\n## Lifecycle Phases\n\n### Initialization",
+        "metadata": {
+          "end": 379,
+          "start": 0,
+          "document_type": "specification"
+        },
+        "score": 0.8116023186326722,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "mcp-architecture:1:0",
+        "document_id": "mcp-architecture",
+        "source": "https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/docs/specification/2025-03-26/architecture/index.mdx",
+        "page": 1,
+        "text": "The Model Context Protocol (MCP) follows a client-host-server architecture where each host can run multiple client instances. This architecture enables users to integrate AI capabilities across applications while maintaining clear security boundaries and isolating concerns. Built on JSON-RPC, MCP provides a stateful session protocol focused on context exchange and sampling coordination between clients and servers.\n\n## Core Components\n\n### Host",
+        "metadata": {
+          "end": 447,
+          "start": 0,
+          "document_type": "specification"
+        },
+        "score": 0.7338761309944434,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "mcp-lifecycle:1:1",
+        "document_id": "mcp-lifecycle",
+        "source": "https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/docs/specification/2025-03-26/basic/lifecycle.mdx",
+        "page": 1,
+        "text": "The initialization phase **MUST** be the first interaction between client and server. During this phase, the client and server:\n\n- Establish protocol version compatibility - Exchange and negotiate capabilities - Share implementation details\n\nThe client **MUST** initiate this phase by sending an `initialize` request containing:\n\n- Protocol version supported - Client capabilities - Client implementation information",
+        "metadata": {
+          "end": 797,
+          "start": 381,
+          "document_type": "specification"
+        },
+        "score": 0.7097900125321753,
+        "evidence_hit": true
+      }
+    ],
+    "hit1": false,
+    "hit3": true,
+    "strategy": "C",
+    "applied_filter": {
+      "document_type": "specification"
+    }
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "question": "When agents need cross-domain collaboration over the Internet, which protocol does the survey favor?",
+    "expected_answer": "ANP.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 25,
+    "evidence_quote": "ANP is more suitable for cross-domain communication and collaboration among agents on the Internet",
+    "hits": [
+      {
+        "chunk_id": "survey-v3:4:0",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 4,
+        "text": "Figure 1: A layered architecture of the Agent Internet Ecosystem.\n\nanalysis of the performance of various protocols across multiple key dimensions, including security, scalability, and latency, providing valuable insights for future research and practical applications of agent protocols. Finally, we explore the future landscape of LLM agent protocol, outlining major research directions and identifying the characteristics that next-generation protocols should embody to support evolving agent ecos",
+        "metadata": {
+          "end": 500,
+          "start": 0,
+          "document_type": "survey"
+        },
+        "score": 0.7993134498391672,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:19:1",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 19,
+        "text": "consider when designing and evaluating LLM agent communication protocols, rather than proposing a specific evaluation benchmark. Drawing inspiration from the seven core metrics observed in the evolution of internetprotocols—interoperability, performanceefficiency, reliability, scalability, security, evolvability, and simplicity—we examine their applicability to LLM agent protocols. As shown in Table4, by delineating these evaluative dimensions, this section aims to provide a comprehensive unders",
+        "metadata": {
+          "end": 950,
+          "start": 450,
+          "document_type": "survey"
+        },
+        "score": 0.7928997997701301,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:4:1",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 4,
+        "text": "ocols should embody to support evolving agent ecosystems, such as adaptability, privacy preservation, and group-based interaction. In summary, our research makes several significant contributions to the field:\n\n• We propose the first systematic, two-dimensional classification of agent protocols—distinguishing context-oriented vs. inter-agent protocols and general-purpose vs. domain-specific protocols—to provide a clear organizational framework.\n\n• We conduct a qualitative analysis of current age",
+        "metadata": {
+          "end": 950,
+          "start": 450,
+          "document_type": "survey"
+        },
+        "score": 0.7901795631540096,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": false,
+    "hit3": false,
+    "strategy": "A",
+    "applied_filter": null
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "question": "When agents need cross-domain collaboration over the Internet, which protocol does the survey favor?",
+    "expected_answer": "ANP.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 25,
+    "evidence_quote": "ANP is more suitable for cross-domain communication and collaboration among agents on the Internet",
+    "hits": [
+      {
+        "chunk_id": "survey-v3:27:1",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 27,
+        "text": "• Cross-domain collaboration occurs through formal protocol-based requests and responses.\n\n• The Flight Agent negotiates with the Weather Agent across domain boundaries.\n\n• The Travel Planner coordinates the overall process but doesn’t mediate every interaction.",
+        "metadata": {
+          "end": 733,
+          "start": 471,
+          "document_type": "survey"
+        },
+        "score": 0.8052970170974789,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:4:0",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 4,
+        "text": "Figure 1: A layered architecture of the Agent Internet Ecosystem.\n\nanalysis of the performance of various protocols across multiple key dimensions, including security, scalability, and latency, providing valuable insights for future research and practical applications of agent protocols.",
+        "metadata": {
+          "end": 288,
+          "start": 0,
+          "document_type": "survey"
+        },
+        "score": 0.8046939009792923,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:19:1",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 19,
+        "text": "Consequently, this section focuses on identifying the critical dimensions and challenges to consider when designing and evaluating LLM agent communication protocols, rather than proposing a specific evaluation benchmark. Drawing inspiration from the seven core metrics observed in the evolution of internetprotocols—interoperability, performanceefficiency, reliability, scalability, security, evolvability, and simplicity—we examine their applicability to LLM agent protocols.",
+        "metadata": {
+          "end": 834,
+          "start": 358,
+          "document_type": "survey"
+        },
+        "score": 0.7975411656449836,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": false,
+    "hit3": false,
+    "strategy": "B",
+    "applied_filter": null
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "question": "When agents need cross-domain collaboration over the Internet, which protocol does the survey favor?",
+    "expected_answer": "ANP.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 25,
+    "evidence_quote": "ANP is more suitable for cross-domain communication and collaboration among agents on the Internet",
+    "hits": [
+      {
+        "chunk_id": "survey-v3:27:1",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 27,
+        "text": "• Cross-domain collaboration occurs through formal protocol-based requests and responses.\n\n• The Flight Agent negotiates with the Weather Agent across domain boundaries.\n\n• The Travel Planner coordinates the overall process but doesn’t mediate every interaction.",
+        "metadata": {
+          "end": 733,
+          "start": 471,
+          "document_type": "survey"
+        },
+        "score": 0.8052970170974789,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:4:0",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 4,
+        "text": "Figure 1: A layered architecture of the Agent Internet Ecosystem.\n\nanalysis of the performance of various protocols across multiple key dimensions, including security, scalability, and latency, providing valuable insights for future research and practical applications of agent protocols.",
+        "metadata": {
+          "end": 288,
+          "start": 0,
+          "document_type": "survey"
+        },
+        "score": 0.8046939009792923,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:19:1",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 19,
+        "text": "Consequently, this section focuses on identifying the critical dimensions and challenges to consider when designing and evaluating LLM agent communication protocols, rather than proposing a specific evaluation benchmark. Drawing inspiration from the seven core metrics observed in the evolution of internetprotocols—interoperability, performanceefficiency, reliability, scalability, security, evolvability, and simplicity—we examine their applicability to LLM agent protocols.",
+        "metadata": {
+          "end": 834,
+          "start": 358,
+          "document_type": "survey"
+        },
+        "score": 0.7975411656449836,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": false,
+    "hit3": false,
+    "strategy": "C",
+    "applied_filter": null
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question": "Why can the centralized MCP travel example create a bottleneck?",
+    "expected_answer": "All communication passes through the central agent.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 26,
+    "evidence_quote": "all communication must pass through the central agent, potentially creating a performance bottleneck.",
+    "hits": [
+      {
+        "chunk_id": "survey-v3:26:0",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 26,
+        "text": "Figure 4: Use-case analyses of four protocols under the same user instruction shown at the top.\n\nThe MCP architecture excels in simplicity and control but lacks flexibility. The central agent must be aware of all services and their interfaces, creating a high-dependency structure that may be difficult to scale or modify. Additionally, all communication must pass through the central agent, potentially creating a performance bottleneck.\n\n5.2 A2A: Complex Collaboration Inter-agents Within an Enterp",
+        "metadata": {
+          "end": 500,
+          "start": 0,
+          "document_type": "survey"
+        },
+        "score": 0.741824746131897,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "survey-v3:24:7",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 24,
+        "text": "This iteration exemplifies the protocol’s balancing act between expanding functionality, optimizing performance, and enhancing security, illustrating the multidimensional trade-offs involved in protocol iteration.\n\nEvolution from MCP to ANP and A2A The progression from MCP to ANP and, ultimately, to A2A represents a shift from a singular functional protocol to a more complex, multi-layered, and multidimensional collaborative architecture:",
+        "metadata": {
+          "end": 3592,
+          "start": 3150,
+          "document_type": "survey"
+        },
+        "score": 0.7246968910278756,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:10:9",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 10,
+        "text": " acquisition and tool invocation, MCP reduces fragmentation across both base LLM providers and resource interfaces. Its client-server architecture enhances interoperability, scalability, and privacy, making it a foundational framework for building robust and secure LLM agent systems.",
+        "metadata": {
+          "end": 4334,
+          "start": 4050,
+          "document_type": "survey"
+        },
+        "score": 0.7144729495048523,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "A",
+    "applied_filter": null
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question": "Why can the centralized MCP travel example create a bottleneck?",
+    "expected_answer": "All communication passes through the central agent.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 26,
+    "evidence_quote": "all communication must pass through the central agent, potentially creating a performance bottleneck.",
+    "hits": [
+      {
+        "chunk_id": "survey-v3:26:0",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 26,
+        "text": "Figure 4: Use-case analyses of four protocols under the same user instruction shown at the top.\n\nThe MCP architecture excels in simplicity and control but lacks flexibility. The central agent must be aware of all services and their interfaces, creating a high-dependency structure that may be difficult to scale or modify. Additionally, all communication must pass through the central agent, potentially creating a performance bottleneck.",
+        "metadata": {
+          "end": 438,
+          "start": 0,
+          "document_type": "survey"
+        },
+        "score": 0.7658934593200684,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "survey-v3:10:5",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 10,
+        "text": "Concurrently, context providers support MCP through a one-time integration process, thereby enabling any MCPcompatible LLM agent to access their services. This standardization has been shown to have a significant impact on development and maintenance costs, whilst concomitantly improving scalability and cross-platform compatibility. Additionally, MCP reduces data security risks arised from the coupling of tool invocations in function-calling style with LLM responses.",
+        "metadata": {
+          "end": 2461,
+          "start": 1990,
+          "document_type": "survey"
+        },
+        "score": 0.7303096869680196,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:9:3",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 9,
+        "text": "The high standardization of MCP effectively addresses the fragmentation arising from various base LLMs and tool providers, greatly enhancing system integration. At the same time, the standardisation of MCP also brings high scalability to tool usage for LLM agents, making it easier for them to integrate a wide range of new tools. In addition, the client-server architecture of MCP decouples tool invocation from LLM responses, reducing the risk of data leakage.",
+        "metadata": {
+          "end": 1577,
+          "start": 1115,
+          "document_type": "survey"
+        },
+        "score": 0.7296897011810376,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "B",
+    "applied_filter": null
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question": "Why can the centralized MCP travel example create a bottleneck?",
+    "expected_answer": "All communication passes through the central agent.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 26,
+    "evidence_quote": "all communication must pass through the central agent, potentially creating a performance bottleneck.",
+    "hits": [
+      {
+        "chunk_id": "survey-v3:26:0",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 26,
+        "text": "Figure 4: Use-case analyses of four protocols under the same user instruction shown at the top.\n\nThe MCP architecture excels in simplicity and control but lacks flexibility. The central agent must be aware of all services and their interfaces, creating a high-dependency structure that may be difficult to scale or modify. Additionally, all communication must pass through the central agent, potentially creating a performance bottleneck.",
+        "metadata": {
+          "end": 438,
+          "start": 0,
+          "document_type": "survey"
+        },
+        "score": 0.7658934593200684,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "survey-v3:10:5",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 10,
+        "text": "Concurrently, context providers support MCP through a one-time integration process, thereby enabling any MCPcompatible LLM agent to access their services. This standardization has been shown to have a significant impact on development and maintenance costs, whilst concomitantly improving scalability and cross-platform compatibility. Additionally, MCP reduces data security risks arised from the coupling of tool invocations in function-calling style with LLM responses.",
+        "metadata": {
+          "end": 2461,
+          "start": 1990,
+          "document_type": "survey"
+        },
+        "score": 0.7303096869680196,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:9:3",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 9,
+        "text": "The high standardization of MCP effectively addresses the fragmentation arising from various base LLMs and tool providers, greatly enhancing system integration. At the same time, the standardisation of MCP also brings high scalability to tool usage for LLM agents, making it easier for them to integrate a wide range of new tools. In addition, the client-server architecture of MCP decouples tool invocation from LLM responses, reducing the risk of data leakage.",
+        "metadata": {
+          "end": 1577,
+          "start": 1115,
+          "document_type": "survey"
+        },
+        "score": 0.7296897011810376,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "C",
+    "applied_filter": null
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "In the ANP example, which two agents negotiate across domains?",
+    "expected_answer": "Flight Agent and Weather Agent.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 27,
+    "evidence_quote": "The Flight Agent negotiates with the Weather Agent across domain boundaries.",
+    "hits": [
+      {
+        "chunk_id": "survey-v3:27:0",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 27,
+        "text": "communication overhead and allows for more complex collaboration patterns across any type of organization or multi-agent system.\n\n5.3 ANP: Cross-Domain Agent Protocol\n\nAgent Network Protocol (ANP) extends collaboration through standardized cross-domain interactions. Figure4(lower left) shows how ANP enables negotiations between agents in different organizational domains:\n\n• Distinct organizational boundaries separate the Airline Company, Hotel, and Weather Website.\n\n• Cross-domain collaboration ",
+        "metadata": {
+          "end": 500,
+          "start": 0,
+          "document_type": "survey"
+        },
+        "score": 0.811377227306366,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:27:1",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 27,
+        "text": "nd Weather Website.\n\n• Cross-domain collaboration occurs through formal protocol-based requests and responses.\n\n• The Flight Agent negotiates with the Weather Agent across domain boundaries.\n\n• The Travel Planner coordinates the overall process but doesn’t mediate every interaction.\n\nANP addresses the challenges of collaboration between independent agents by formalizing the protocolbased interaction process. While A2A focuses on message-based delegation, ANP establishes clear protocols for struc",
+        "metadata": {
+          "end": 950,
+          "start": 450,
+          "document_type": "survey"
+        },
+        "score": 0.8068455457687378,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "survey-v3:13:0",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 13,
+        "text": "utilizing the required interfaces, constructing properly formatted requests, appending authentication credentials, sending the requests, and finally processes the corresponding responses. In terms of the significance of ANP, it introduces an innovative solution for agent network communication, marking the creative concept of the Internet of Agents. Future directions include optimizing cross-platform identity authentication to improve scalability and practicality, exploring more suitable agent co",
+        "metadata": {
+          "end": 500,
+          "start": 0,
+          "document_type": "survey"
+        },
+        "score": 0.7981594325209016,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": false,
+    "hit3": true,
+    "strategy": "A",
+    "applied_filter": null
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "In the ANP example, which two agents negotiate across domains?",
+    "expected_answer": "Flight Agent and Weather Agent.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 27,
+    "evidence_quote": "The Flight Agent negotiates with the Weather Agent across domain boundaries.",
+    "hits": [
+      {
+        "chunk_id": "survey-v3:27:2",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 27,
+        "text": "ANP addresses the challenges of collaboration between independent agents by formalizing the protocolbased interaction process. While A2A focuses on message-based delegation, ANP establishes clear protocols for structured requests and responses between agents.",
+        "metadata": {
+          "end": 994,
+          "start": 735,
+          "document_type": "survey"
+        },
+        "score": 0.8558742489889727,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:27:0",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 27,
+        "text": "communication overhead and allows for more complex collaboration patterns across any type of organization or multi-agent system.\n\n5.3 ANP: Cross-Domain Agent Protocol\n\nAgent Network Protocol (ANP) extends collaboration through standardized cross-domain interactions. Figure4(lower left) shows how ANP enables negotiations between agents in different organizational domains:\n\n• Distinct organizational boundaries separate the Airline Company, Hotel, and Weather Website.",
+        "metadata": {
+          "end": 469,
+          "start": 0,
+          "document_type": "survey"
+        },
+        "score": 0.8116086721420288,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:12:2",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 12,
+        "text": "• Efficient Collaboration: Agents can establish a more cost-effective and efficient collaboration network by leveraging automatic-organization and automatic-negotiation mechanisms.\n\nANP consists of three core layers:",
+        "metadata": {
+          "end": 1093,
+          "start": 877,
+          "document_type": "survey"
+        },
+        "score": 0.8046517008958276,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": false,
+    "hit3": false,
+    "strategy": "B",
+    "applied_filter": null
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "In the ANP example, which two agents negotiate across domains?",
+    "expected_answer": "Flight Agent and Weather Agent.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 27,
+    "evidence_quote": "The Flight Agent negotiates with the Weather Agent across domain boundaries.",
+    "hits": [
+      {
+        "chunk_id": "survey-v3:27:2",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 27,
+        "text": "ANP addresses the challenges of collaboration between independent agents by formalizing the protocolbased interaction process. While A2A focuses on message-based delegation, ANP establishes clear protocols for structured requests and responses between agents.",
+        "metadata": {
+          "end": 994,
+          "start": 735,
+          "document_type": "survey"
+        },
+        "score": 0.8558742489889727,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:27:0",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 27,
+        "text": "communication overhead and allows for more complex collaboration patterns across any type of organization or multi-agent system.\n\n5.3 ANP: Cross-Domain Agent Protocol\n\nAgent Network Protocol (ANP) extends collaboration through standardized cross-domain interactions. Figure4(lower left) shows how ANP enables negotiations between agents in different organizational domains:\n\n• Distinct organizational boundaries separate the Airline Company, Hotel, and Weather Website.",
+        "metadata": {
+          "end": 469,
+          "start": 0,
+          "document_type": "survey"
+        },
+        "score": 0.8116086721420288,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:12:2",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 12,
+        "text": "• Efficient Collaboration: Agents can establish a more cost-effective and efficient collaboration network by leveraging automatic-organization and automatic-negotiation mechanisms.\n\nANP consists of three core layers:",
+        "metadata": {
+          "end": 1093,
+          "start": 877,
+          "document_type": "survey"
+        },
+        "score": 0.8046517008958276,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": false,
+    "hit3": false,
+    "strategy": "C",
+    "applied_filter": null
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "What does the proposed layering separate from semantic and task interactions?",
+    "expected_answer": "Low-level transport and synchronization.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 29,
+    "evidence_quote": "decoupling low-level transport and synchronization mechanisms from high-level semantic and task-related interactions",
+    "hits": [
+      {
+        "chunk_id": "survey-v3:29:3",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 29,
+        "text": " efficiently by adhering to shared abstractions at each layer. Furthermore, the layered architectures may pave the way for dynamic protocol composition, where agents can negotiate or auto-select interaction layers suited to the context—adapting from rigid rule-following to more fluid, ecosystem-level behavior. This adaptability is crucial in mixed human-AI environments, where norms, preferences, and objectives evolve over time. Layered protocols could also integrate ethical, legal, and social co",
+        "metadata": {
+          "end": 1850,
+          "start": 1350,
+          "document_type": "survey"
+        },
+        "score": 0.7580752824589791,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:29:2",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 29,
+        "text": "t isolated structure towards layered protocol architectures, which aim to separate concerns across different levels of communication. By decoupling low-level transport and synchronization mechanisms from high-level semantic and task-related interactions, such architectures can improve modularity and scalability across heterogeneous agents.. Inspired by classical network protocol design, this architecture allows diverse agents to interoperate more efficiently by adhering to shared abstractions at",
+        "metadata": {
+          "end": 1400,
+          "start": 900,
+          "document_type": "survey"
+        },
+        "score": 0.7565572938225265,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "survey-v3:29:8",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 29,
+        "text": "k states, distributed memory snapshots, and temporal context logs, rather than human-readable web content. This network layer would serve agents’ operational needs directly—enabling persistent state synchronization, longhorizon planning, and asynchronous collaboration—without requiring human intervention or visibility.\n\n7 Conclusion\n\nIn this survey, we provide the first comprehensive analysis of existing AI agent protocols. By systematically classifying protocols into two-dimensional classificat",
+        "metadata": {
+          "end": 4100,
+          "start": 3600,
+          "document_type": "survey"
+        },
+        "score": 0.7302231788635254,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": false,
+    "hit3": true,
+    "strategy": "A",
+    "applied_filter": null
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "What does the proposed layering separate from semantic and task interactions?",
+    "expected_answer": "Low-level transport and synchronization.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 29,
+    "evidence_quote": "decoupling low-level transport and synchronization mechanisms from high-level semantic and task-related interactions",
+    "hits": [
+      {
+        "chunk_id": "survey-v3:29:4",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 29,
+        "text": "This adaptability is crucial in mixed human-AI environments, where norms, preferences, and objectives evolve over time. Layered protocols could also integrate ethical, legal, and social constraints at higher layers, aligning agent behavior with broader societal values.\n\n6.3 Long-Term Outlook: From Protocols to Intelligence Infrastructure",
+        "metadata": {
+          "end": 2001,
+          "start": 1662,
+          "document_type": "survey"
+        },
+        "score": 0.7500067800287487,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:29:3",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 29,
+        "text": "Inspired by classical network protocol design, this architecture allows diverse agents to interoperate more efficiently by adhering to shared abstractions at each layer. Furthermore, the layered architectures may pave the way for dynamic protocol composition, where agents can negotiate or auto-select interaction layers suited to the context—adapting from rigid rule-following to more fluid, ecosystem-level behavior.",
+        "metadata": {
+          "end": 1661,
+          "start": 1243,
+          "document_type": "survey"
+        },
+        "score": 0.7382608808123553,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:29:2",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 29,
+        "text": "Layered Protocol Architectures. Protocol design may evolve from the current isolated structure towards layered protocol architectures, which aim to separate concerns across different levels of communication. By decoupling low-level transport and synchronization mechanisms from high-level semantic and task-related interactions, such architectures can improve modularity and scalability across heterogeneous agents..",
+        "metadata": {
+          "end": 1242,
+          "start": 826,
+          "document_type": "survey"
+        },
+        "score": 0.7302103042602539,
+        "evidence_hit": true
+      }
+    ],
+    "hit1": false,
+    "hit3": true,
+    "strategy": "B",
+    "applied_filter": null
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "What does the proposed layering separate from semantic and task interactions?",
+    "expected_answer": "Low-level transport and synchronization.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 29,
+    "evidence_quote": "decoupling low-level transport and synchronization mechanisms from high-level semantic and task-related interactions",
+    "hits": [
+      {
+        "chunk_id": "survey-v3:29:4",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 29,
+        "text": "This adaptability is crucial in mixed human-AI environments, where norms, preferences, and objectives evolve over time. Layered protocols could also integrate ethical, legal, and social constraints at higher layers, aligning agent behavior with broader societal values.\n\n6.3 Long-Term Outlook: From Protocols to Intelligence Infrastructure",
+        "metadata": {
+          "end": 2001,
+          "start": 1662,
+          "document_type": "survey"
+        },
+        "score": 0.7500067800287487,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:29:3",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 29,
+        "text": "Inspired by classical network protocol design, this architecture allows diverse agents to interoperate more efficiently by adhering to shared abstractions at each layer. Furthermore, the layered architectures may pave the way for dynamic protocol composition, where agents can negotiate or auto-select interaction layers suited to the context—adapting from rigid rule-following to more fluid, ecosystem-level behavior.",
+        "metadata": {
+          "end": 1661,
+          "start": 1243,
+          "document_type": "survey"
+        },
+        "score": 0.7382608808123553,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:29:2",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 29,
+        "text": "Layered Protocol Architectures. Protocol design may evolve from the current isolated structure towards layered protocol architectures, which aim to separate concerns across different levels of communication. By decoupling low-level transport and synchronization mechanisms from high-level semantic and task-related interactions, such architectures can improve modularity and scalability across heterogeneous agents..",
+        "metadata": {
+          "end": 1242,
+          "start": 826,
+          "document_type": "survey"
+        },
+        "score": 0.7302103042602539,
+        "evidence_hit": true
+      }
+    ],
+    "hit1": false,
+    "hit3": true,
+    "strategy": "C",
+    "applied_filter": null
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "According to the official MCP lifecycle specification, which three phases organize a connection?",
+    "expected_answer": "Initialization, operation and shutdown.",
+    "gold_source_id": "mcp-lifecycle",
+    "gold_page": 1,
+    "evidence_quote": "1. **Initialization**: Capability negotiation and protocol version agreement 2. **Operation**: Normal protocol communication 3. **Shutdown**: Graceful termination of the connection",
+    "filter": {
+      "document_type": "specification"
+    },
+    "hits": [
+      {
+        "chunk_id": "mcp-lifecycle:1:0",
+        "document_id": "mcp-lifecycle",
+        "source": "https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/docs/specification/2025-03-26/basic/lifecycle.mdx",
+        "page": 1,
+        "text": "The Model Context Protocol (MCP) defines a rigorous lifecycle for client-server connections that ensures proper capability negotiation and state management.\n\n1. **Initialization**: Capability negotiation and protocol version agreement 2. **Operation**: Normal protocol communication 3. **Shutdown**: Graceful termination of the connection\n\n## Lifecycle Phases\n\n### Initialization\n\nThe initialization phase **MUST** be the first interaction between client and server. During this phase, the client and",
+        "metadata": {
+          "end": 500,
+          "start": 0,
+          "document_type": "specification"
+        },
+        "score": 0.8319151053403353,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "survey-v3:25:0",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 25,
+        "text": "• MCP: Focused on providing structured context and tool integration for LLMs, emphasizing the connection between models and external resources.\n\n• ANP: Introduced decentralized identity mechanisms (e.g., W3C DID), enabling peer-to-peer communication between agents, enhancing system autonomy and flexibility.\n\n• A2A: Provided a standardized framework for collaboration between enterprise-level agents, supporting task management, message exchange, and multimodal outputs, thus facilitating cross-plat",
+        "metadata": {
+          "end": 500,
+          "start": 0,
+          "document_type": "survey"
+        },
+        "score": 0.7389427203255111,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "mcp-architecture:1:0",
+        "document_id": "mcp-architecture",
+        "source": "https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/docs/specification/2025-03-26/architecture/index.mdx",
+        "page": 1,
+        "text": "The Model Context Protocol (MCP) follows a client-host-server architecture where each host can run multiple client instances. This architecture enables users to integrate AI capabilities across applications while maintaining clear security boundaries and isolating concerns. Built on JSON-RPC, MCP provides a stateful session protocol focused on context exchange and sampling coordination between clients and servers.\n\n## Core Components\n\n### Host\n\nThe host process acts as the container and coordina",
+        "metadata": {
+          "end": 500,
+          "start": 0,
+          "document_type": "specification"
+        },
+        "score": 0.7364592332703133,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "A",
+    "applied_filter": null
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "According to the official MCP lifecycle specification, which three phases organize a connection?",
+    "expected_answer": "Initialization, operation and shutdown.",
+    "gold_source_id": "mcp-lifecycle",
+    "gold_page": 1,
+    "evidence_quote": "1. **Initialization**: Capability negotiation and protocol version agreement 2. **Operation**: Normal protocol communication 3. **Shutdown**: Graceful termination of the connection",
+    "filter": {
+      "document_type": "specification"
+    },
+    "hits": [
+      {
+        "chunk_id": "mcp-lifecycle:1:0",
+        "document_id": "mcp-lifecycle",
+        "source": "https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/docs/specification/2025-03-26/basic/lifecycle.mdx",
+        "page": 1,
+        "text": "The Model Context Protocol (MCP) defines a rigorous lifecycle for client-server connections that ensures proper capability negotiation and state management.\n\n1. **Initialization**: Capability negotiation and protocol version agreement 2. **Operation**: Normal protocol communication 3. **Shutdown**: Graceful termination of the connection\n\n## Lifecycle Phases\n\n### Initialization",
+        "metadata": {
+          "end": 379,
+          "start": 0,
+          "document_type": "specification"
+        },
+        "score": 0.8311460265858781,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "survey-v3:9:4",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 9,
+        "text": "The following discussion will proceed to introduce the fundamental structure and process of the MCP protocol. The utilisation of the MCP protocol for tool usage can be characterised by the presence of four distinct components, namely Host, Client, Server and Resource.",
+        "metadata": {
+          "end": 1846,
+          "start": 1578,
+          "document_type": "survey"
+        },
+        "score": 0.7765798800164428,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "survey-v3:25:0",
+        "document_id": "survey-v3",
+        "source": "https://arxiv.org/abs/2504.16736",
+        "page": 25,
+        "text": "• MCP: Focused on providing structured context and tool integration for LLMs, emphasizing the connection between models and external resources.\n\n• ANP: Introduced decentralized identity mechanisms (e.g., W3C DID), enabling peer-to-peer communication between agents, enhancing system autonomy and flexibility.",
+        "metadata": {
+          "end": 308,
+          "start": 0,
+          "document_type": "survey"
+        },
+        "score": 0.750977255374874,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "B",
+    "applied_filter": null
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "According to the official MCP lifecycle specification, which three phases organize a connection?",
+    "expected_answer": "Initialization, operation and shutdown.",
+    "gold_source_id": "mcp-lifecycle",
+    "gold_page": 1,
+    "evidence_quote": "1. **Initialization**: Capability negotiation and protocol version agreement 2. **Operation**: Normal protocol communication 3. **Shutdown**: Graceful termination of the connection",
+    "filter": {
+      "document_type": "specification"
+    },
+    "hits": [
+      {
+        "chunk_id": "mcp-lifecycle:1:0",
+        "document_id": "mcp-lifecycle",
+        "source": "https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/docs/specification/2025-03-26/basic/lifecycle.mdx",
+        "page": 1,
+        "text": "The Model Context Protocol (MCP) defines a rigorous lifecycle for client-server connections that ensures proper capability negotiation and state management.\n\n1. **Initialization**: Capability negotiation and protocol version agreement 2. **Operation**: Normal protocol communication 3. **Shutdown**: Graceful termination of the connection\n\n## Lifecycle Phases\n\n### Initialization",
+        "metadata": {
+          "end": 379,
+          "start": 0,
+          "document_type": "specification"
+        },
+        "score": 0.8311460265858781,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "mcp-architecture:1:0",
+        "document_id": "mcp-architecture",
+        "source": "https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/docs/specification/2025-03-26/architecture/index.mdx",
+        "page": 1,
+        "text": "The Model Context Protocol (MCP) follows a client-host-server architecture where each host can run multiple client instances. This architecture enables users to integrate AI capabilities across applications while maintaining clear security boundaries and isolating concerns. Built on JSON-RPC, MCP provides a stateful session protocol focused on context exchange and sampling coordination between clients and servers.\n\n## Core Components\n\n### Host",
+        "metadata": {
+          "end": 447,
+          "start": 0,
+          "document_type": "specification"
+        },
+        "score": 0.7337606171894261,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "mcp-architecture:1:3",
+        "document_id": "mcp-architecture",
+        "source": "https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/docs/specification/2025-03-26/architecture/index.mdx",
+        "page": 1,
+        "text": "- Expose resources, tools and prompts via MCP primitives - Operate independently with focused responsibilities - Request sampling through client interfaces - Must respect security constraints - Can be local processes or remote services\n\n## Design Principles\n\nMCP is built on several key design principles that inform its architecture and implementation:",
+        "metadata": {
+          "end": 1671,
+          "start": 1318,
+          "document_type": "specification"
+        },
+        "score": 0.6962781159960665,
+        "evidence_hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "strategy": "C",
+    "applied_filter": {
+      "document_type": "specification"
+    }
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "A": {
+    "chunk_count": 254,
+    "total_characters": 121314,
+    "min_characters": 97,
+    "median_characters": 500.0,
+    "max_characters": 500,
+    "chunk_seconds": 0.0013988999999128282
+  },
+  "B": {
+    "chunk_count": 297,
+    "total_characters": 109726,
+    "min_characters": 76,
+    "median_characters": 377,
+    "max_characters": 499,
+    "chunk_seconds": 0.002453300000524905
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "strategy": "C",
+  "rule": "Highest dev Hit@3, then Hit@1, then A/B/C order",
+  "benchmark_sha256": "276c452650b22de06d94025a09103a17783cd3bcc2d6fbec44629e3fb17251f4"
+}

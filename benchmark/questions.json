@@ -1,0 +1,191 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "What two types of memory help an agent retain context?",
+    "expected_answer": "Short-term and long-term memory.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 5,
+    "evidence_quote": "both short-term and long-term memory components"
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "What does an agent protocol define for structured communication?",
+    "expected_answer": "Rules, formats and procedures.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 6,
+    "evidence_quote": "the rules, formats, and procedures for structured communication"
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "What two axes does the survey use to classify protocols?",
+    "expected_answer": "Context-oriented vs inter-agent, and general-purpose vs domain-specific.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 4,
+    "evidence_quote": "context-oriented vs. inter-agent protocols and general-purpose vs. domain-specific protocols"
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "How do general-purpose context protocols differ from domain-specific ones?",
+    "expected_answer": "The former use a unified interface, the latter optimize for particular use cases.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 9,
+    "evidence_quote": "General-purpose protocols aim to support a wide range of agents and context providers through a unified interface, while domain-specific protocols focus on specialized optimization for particular use cases."
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "What can count as a resource in the MCP model?",
+    "expected_answer": "Local or remote data, tools or services.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 10,
+    "evidence_quote": "Resource refers to data (e.g., local file systems), tools (e.g., Git), or services (e.g., search engines) provided locally or remotely."
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "Where is an agents.json contract typically published?",
+    "expected_answer": "At /.well-known/agents.json.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 11,
+    "evidence_quote": "typically hosted at /.well-known/agents.json."
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "What identity standard does ANP use?",
+    "expected_answer": "W3C DID.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 12,
+    "evidence_quote": "W3C DID (Decentralized Identifiers) standard"
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "Which transport, message format and streaming mechanism does the survey list for A2A?",
+    "expected_answer": "HTTP(S), JSON-RPC 2.0 and SSE.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 13,
+    "evidence_quote": "HTTP(S) as the transport layer, JSON-RPC 2.0 as the messaging format, and Server-Sent Events (SSE) for streaming."
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "How can A2A deliver updates for long-running tasks?",
+    "expected_answer": "Polling, SSE-based updates and push notifications.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 13,
+    "evidence_quote": "polling, SSE-based updates, and push notifications"
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "What three goals form the Agent Communication Trilemma?",
+    "expected_answer": "Versatility, efficiency and portability.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 15,
+    "evidence_quote": "versatility, efficiency, and portability form the Agent Communication Trilemma"
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "How does the survey define throughput?",
+    "expected_answer": "Messages or tasks processed per second.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 20,
+    "evidence_quote": "the number of messages or tasks processed per second"
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "What three levels of permission granularity are examples for Role/ACL?",
+    "expected_answer": "Field-level, endpoint-level and task-level.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 21,
+    "evidence_quote": "field-level, endpoint-level, or task-level"
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "Why can persistent connections improve transmission efficiency?",
+    "expected_answer": "They avoid repeated setup and teardown.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 22,
+    "evidence_quote": "persistent connections eliminate the overhead of frequent connection setup and teardown"
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "In the official MCP architecture specification, what relationship does each client have with its server?",
+    "expected_answer": "One-to-one with a particular server.",
+    "gold_source_id": "mcp-architecture",
+    "gold_page": 1,
+    "evidence_quote": "each client having a 1:1 relationship with a particular server.",
+    "filter": {
+      "document_type": "specification"
+    }
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "In the official MCP lifecycle specification, which interaction must happen first?",
+    "expected_answer": "Initialization.",
+    "gold_source_id": "mcp-lifecycle",
+    "gold_page": 1,
+    "evidence_quote": "The initialization phase **MUST** be the first interaction between client and server.",
+    "filter": {
+      "document_type": "specification"
+    }
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "question": "When agents need cross-domain collaboration over the Internet, which protocol does the survey favor?",
+    "expected_answer": "ANP.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 25,
+    "evidence_quote": "ANP is more suitable for cross-domain communication and collaboration among agents on the Internet"
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question": "Why can the centralized MCP travel example create a bottleneck?",
+    "expected_answer": "All communication passes through the central agent.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 26,
+    "evidence_quote": "all communication must pass through the central agent, potentially creating a performance bottleneck."
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "In the ANP example, which two agents negotiate across domains?",
+    "expected_answer": "Flight Agent and Weather Agent.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 27,
+    "evidence_quote": "The Flight Agent negotiates with the Weather Agent across domain boundaries."
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "What does the proposed layering separate from semantic and task interactions?",
+    "expected_answer": "Low-level transport and synchronization.",
+    "gold_source_id": "survey-v3",
+    "gold_page": 29,
+    "evidence_quote": "decoupling low-level transport and synchronization mechanisms from high-level semantic and task-related interactions"
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "According to the official MCP lifecycle specification, which three phases organize a connection?",
+    "expected_answer": "Initialization, operation and shutdown.",
+    "gold_source_id": "mcp-lifecycle",
+    "gold_page": 1,
+    "evidence_quote": "1. **Initialization**: Capability negotiation and protocol version agreement 2. **Operation**: Normal protocol communication 3. **Shutdown**: Graceful termination of the connection",
+    "filter": {
+      "document_type": "specification"
+    }
+  }
+]

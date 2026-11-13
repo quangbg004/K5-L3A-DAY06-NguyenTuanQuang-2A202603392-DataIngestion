@@ -1,0 +1,16 @@
+strategy,question,score,reason
+A,q16,0,General protocol landscape and evaluation text do not support the recommendation.
+A,q17,2,Page 26 explains that centralizing all communication creates a potential bottleneck.
+A,q18,2,Page 27 names both negotiating agents and the cross-domain context.
+A,q19,2,Page 29 states which lower-level and higher-level concerns are separated.
+A,q20,2,The Lifecycle specification states all three phases and can be traced to its source.
+B,q16,1,Page 27 provides a cross-domain example but the retrieved chunk does not name ANP or state the recommendation.
+B,q17,2,Page 26 explains the central communication dependency and bottleneck.
+B,q18,1,Page 27 explains cross-domain ANP and names organizations but omits the two agents involved.
+B,q19,2,The third result on page 29 contains the complete separation.
+B,q20,2,The first result gives all three phases in the Lifecycle specification.
+C,q16,1,The same example as B lacks an explicit protocol name and recommendation.
+C,q17,2,Page 26 states the central communication dependency and resulting bottleneck.
+C,q18,1,The same results as B lack the Flight Agent and Weather Agent pairing.
+C,q19,2,The third result contains both layers and their responsibilities.
+C,q20,2,The top result provides all three phases and all retrieved records respect the requested source type.

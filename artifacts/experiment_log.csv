@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed characters,500,50,source/page/document_type,none,BAAI/bge-small-en-v1.5,Overlap can preserve evidence near boundaries,6/15,9/15,2/5,4/5,254 chunks measured locally
+B,paragraph then sentence then whitespace,500,0,source/page/document_type,none,BAAI/bge-small-en-v1.5,Structural boundaries can improve coherence,11/15,11/15,2/5,3/5,297 chunks measured locally
+C,same index as B,500,0,source/page/document_type,document_type when supplied,BAAI/bge-small-en-v1.5,Filter can remove out-of-scope candidates,11/15,12/15,2/5,3/5,B index is reused

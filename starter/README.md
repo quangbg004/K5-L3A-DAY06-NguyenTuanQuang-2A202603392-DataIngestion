@@ -1,6 +1,20 @@
+
+## Chạy bài làm AI Agent Protocols
+
+Chạy trong thư mục starter với PowerShell. Giữ tệp .env hiện có. Nếu chưa tạo, sao chép từ .env.example.
+
+```powershell
+.venv\Scripts\python.exe -m pip install --no-cache-dir -r requirements.txt
+docker compose -p day6_student_starter up -d --wait
+.venv\Scripts\python.exe scripts/check_setup.py
+.venv\Scripts\python.exe -m src.run --prepare-only
+.venv\Scripts\python.exe -m src.run
+```
+
+Bài làm dùng arXiv:2504.16736v3, hai mục MCP được ghim theo commit và embedding BAAI/bge-small-en-v1.5 trên CPU. Lần đầu tải model cần mạng. Kết quả được ghi ở results/ tại thư mục gốc. Xem data/manifest.json và benchmark/questions.json tại thư mục gốc để kiểm tra nguồn và bằng chứng.
 # Starter · PostgreSQL + pgvector
 
-Bộ khởi động **tùy chọn** cho lab cá nhân. Docker Compose tạo PostgreSQL + pgvector local; các file trong `src/` là **khung pseudocode có TODO**, chưa đọc tài liệu, tạo embedding, lưu vector hay chạy benchmark. Bạn cần tự hiện thực. Vẫn có thể chọn Qdrant, Chroma hoặc vector store tương đương theo [GUIDE.md](../GUIDE.md).
+Bộ khởi động **tùy chọn** cho lab cá nhân. Docker Compose tạo PostgreSQL + pgvector local; mã nguồn trong `src/` hiện triển khai bài làm AI Agent Protocols. Các bước ở phần starter mô tả khung ban đầu. Vẫn có thể chọn Qdrant, Chroma hoặc vector store tương đương theo [GUIDE.md](../GUIDE.md).
 
 ## Cấu trúc
 
@@ -60,6 +74,6 @@ docker compose -p day6_student_starter stop
 2. Hoàn thiện từng hàm TODO trong `src/`. Lưu ID tài liệu, nguồn, trang/vị trí và ít nhất một trường filter có ích.
 3. Xây ít nhất ba cấu hình; ví dụ A fixed-size, B theo đoạn, C như B nhưng có filter. Cần cùng corpus, model và benchmark; nạp lại không nhân đôi và xử lý chunk cũ khi dữ liệu đổi.
 4. Tự viết ít nhất 20 câu hỏi kèm evidence, tách dev/test trước khi thử theo [BENCHMARK.md](../BENCHMARK.md). Lưu trace top-3 và báo cáo đủ năm tiêu chí.
-5. Sau khi hoàn thiện, chạy `python -m src.run` từ thư mục `starter/`. Trước khi làm TODO, lệnh này **chủ động báo `NotImplementedError`**.
+5. Sau khi hoàn thiện, chạy `python -m src.run` từ thư mục `starter/`. Dùng `--prepare-only` để kiểm tra corpus, benchmark và thống kê chunk trước khi kết nối database.
 
 Lưu code, cấu hình, kết quả và lệnh chạy để người chấm tái lập; không commit key, dữ liệu mật hoặc dữ liệu không có quyền chia sẻ.

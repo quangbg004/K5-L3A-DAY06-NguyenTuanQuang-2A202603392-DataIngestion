@@ -1,29 +1,19 @@
-"""Choose a real embedding provider (API or local) and implement this contract."""
-from typing import Protocol
+"""Run a semantic embedding model locally on CPU."""
+from pathlib import Path
 
-
-class Embedder(Protocol):
-    model_name: str
-    dimensions: int
-
-    def embed_documents(self, texts: list[str]) -> list[list[float]]:
-        """Return one vector per input text, in the same order."""
-        ...
-
-    def embed_query(self, question: str) -> list[float]:
-        """Return a query vector compatible with the stored document vectors."""
-        ...
+from fastembed import TextEmbedding
 
 
 class MyEmbedder:
-    """TODO: implement a provider adapter; do not silently fall back to mock vectors."""
-
-    def __init__(self, model_name: str) -> None:
+    def __init__(self, model_name: str, cache_dir: str) -> None:
         self.model_name = model_name
-        raise NotImplementedError("TODO: initialize real embedder and dimensions")
+        local = Path(cache_dir).parent / "bge-model"
+        options = {"specific_model_path": str(local)} if (local / "model_optimized.onnx").is_file() else {}
+        self.model = TextEmbedding(model_name=model_name, cache_dir=cache_dir, **options)
+        self.dimensions = self.model.get_embedding_size(model_name)
 
     def embed_documents(self, texts: list[str]) -> list[list[float]]:
-        raise NotImplementedError("TODO: embed_documents")
+        return [v.tolist() for v in self.model.passage_embed(texts, batch_size=32)]
 
     def embed_query(self, question: str) -> list[float]:
-        raise NotImplementedError("TODO: embed_query")
+        return next(self.model.query_embed(question)).tolist()

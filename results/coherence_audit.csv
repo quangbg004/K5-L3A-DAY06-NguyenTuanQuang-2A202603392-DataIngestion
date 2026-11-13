@@ -1,0 +1,21 @@
+strategy,source,page,score,reason
+A,survey-v3,3,1,Collective intelligence is identifiable but both boundaries cut words.
+A,survey-v3,4,1,Qualitative analysis is clear but the outlook bullet ends mid-phrase.
+A,survey-v3,5,1,Memory and planning are discernible but the memory subject is truncated.
+A,survey-v3,6,1,Specialized models are discussed but both boundaries cut the prose.
+A,survey-v3,7,1,Temporary coalitions are mentioned but the opening is mid-word.
+A,survey-v3,8,1,Weather API example is recognizable but the actor and closing claim are cut.
+A,survey-v3,9,1,Four MCP components are listed but the opening lacks a subject.
+A,survey-v3,10,1,MCP standardization benefits are understandable but surrounding sentences are cut.
+A,survey-v3,11,1,The MAS integration problem is partly clear but the expected capabilities list is cut.
+A,survey-v3,12,1,Meta-protocol can be identified but identity and application layers are cut.
+B,survey-v3,3,2,Complete description of combining tool and agent capabilities.
+B,survey-v3,4,2,Complete list of forward-looking trends.
+B,survey-v3,5,2,Memory systems are named and their purpose is explained.
+B,survey-v3,6,2,Multi-agent specialization and its application are intelligible.
+B,survey-v3,7,2,Explains how protocol abstractions support temporary coalitions.
+B,survey-v3,8,1,This approach refers to preceding context but proprietary tool formats are explained.
+B,survey-v3,9,2,Identifies the MCP structure and lists all four components.
+B,survey-v3,10,2,Identifies one-time integration for providers and the security motivation.
+B,survey-v3,11,2,Explains why embedded agents motivate a common inter-agent standard.
+B,survey-v3,12,2,Names the Meta-Protocol Layer and explains its negotiation purpose.

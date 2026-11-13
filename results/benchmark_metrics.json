@@ -1,0 +1,78 @@
+{
+  "benchmark_sha256": "276c452650b22de06d94025a09103a17783cd3bcc2d6fbec44629e3fb17251f4",
+  "selected_on_dev": "C",
+  "model": "BAAI/bge-small-en-v1.5",
+  "dimensions": 384,
+  "fastembed": "0.9.1",
+  "pypdf": "6.21.4",
+  "database": {
+    "postgres": "16.16 (Debian 16.16-1.pgdg12+1)",
+    "pgvector": "0.8.7"
+  },
+  "paid_api_cost": 0,
+  "search": "exact cosine",
+  "strategies": {
+    "A": {
+      "chunk_count": 254,
+      "total_characters": 121314,
+      "min_characters": 97,
+      "median_characters": 500.0,
+      "max_characters": 500,
+      "chunk_seconds": 0.0013988999999128282,
+      "embed_and_store_seconds": 14.539578300000358,
+      "reingest_count": 254
+    },
+    "B": {
+      "chunk_count": 297,
+      "total_characters": 109726,
+      "min_characters": 76,
+      "median_characters": 377,
+      "max_characters": 499,
+      "chunk_seconds": 0.002453300000524905,
+      "embed_and_store_seconds": 16.09493460000067,
+      "reingest_count": 297
+    },
+    "C": {
+      "chunk_count": 297,
+      "reuses_index": "B"
+    }
+  },
+  "metrics": {
+    "A": {
+      "dev": {
+        "total": 15,
+        "hit1": 6,
+        "hit3": 9
+      },
+      "test": {
+        "total": 5,
+        "hit1": 2,
+        "hit3": 4
+      }
+    },
+    "B": {
+      "dev": {
+        "total": 15,
+        "hit1": 11,
+        "hit3": 11
+      },
+      "test": {
+        "total": 5,
+        "hit1": 2,
+        "hit3": 3
+      }
+    },
+    "C": {
+      "dev": {
+        "total": 15,
+        "hit1": 11,
+        "hit3": 12
+      },
+      "test": {
+        "total": 5,
+        "hit1": 2,
+        "hit3": 3
+      }
+    }
+  }
+}

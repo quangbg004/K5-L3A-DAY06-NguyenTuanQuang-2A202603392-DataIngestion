@@ -1,0 +1,166 @@
+{
+  "accessed_at": "2026-11-13",
+  "content_units": 30,
+  "sources": [
+    {
+      "source_id": "survey-v3",
+      "title": "A Survey of AI Agent Protocols",
+      "source_path_or_url": "https://arxiv.org/abs/2504.16736",
+      "local_file": "2504.16736v3.pdf",
+      "download_url": "https://arxiv.org/pdf/2504.16736v3",
+      "license_or_permission": "CC BY 4.0",
+      "license_url": "https://arxiv.org/html/2504.16736v3",
+      "version": "2504.16736v3",
+      "physical_pages": 33,
+      "counting_rule": "Physical pages 3–30. Exclude front matter and references; remove References from mixed page 30.",
+      "units": [
+        {
+          "page": 3,
+          "characters": 4752
+        },
+        {
+          "page": 4,
+          "characters": 2293
+        },
+        {
+          "page": 5,
+          "characters": 2085
+        },
+        {
+          "page": 6,
+          "characters": 4491
+        },
+        {
+          "page": 7,
+          "characters": 3771
+        },
+        {
+          "page": 8,
+          "characters": 2624
+        },
+        {
+          "page": 9,
+          "characters": 3529
+        },
+        {
+          "page": 10,
+          "characters": 4334
+        },
+        {
+          "page": 11,
+          "characters": 4071
+        },
+        {
+          "page": 12,
+          "characters": 3292
+        },
+        {
+          "page": 13,
+          "characters": 4069
+        },
+        {
+          "page": 14,
+          "characters": 4415
+        },
+        {
+          "page": 15,
+          "characters": 4336
+        },
+        {
+          "page": 16,
+          "characters": 4447
+        },
+        {
+          "page": 17,
+          "characters": 3925
+        },
+        {
+          "page": 18,
+          "characters": 4318
+        },
+        {
+          "page": 19,
+          "characters": 2954
+        },
+        {
+          "page": 20,
+          "characters": 3901
+        },
+        {
+          "page": 21,
+          "characters": 3874
+        },
+        {
+          "page": 22,
+          "characters": 3768
+        },
+        {
+          "page": 23,
+          "characters": 4173
+        },
+        {
+          "page": 24,
+          "characters": 3592
+        },
+        {
+          "page": 25,
+          "characters": 3061
+        },
+        {
+          "page": 26,
+          "characters": 1461
+        },
+        {
+          "page": 27,
+          "characters": 3247
+        },
+        {
+          "page": 28,
+          "characters": 4076
+        },
+        {
+          "page": 29,
+          "characters": 4329
+        },
+        {
+          "page": 30,
+          "characters": 900
+        }
+      ]
+    },
+    {
+      "source_id": "mcp-architecture",
+      "title": "MCP Architecture",
+      "source_path_or_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/docs/specification/2025-03-26/architecture/index.mdx",
+      "local_file": "mcp-architecture.mdx",
+      "license_or_permission": "See upstream MIT/Apache-2.0 transition notice preserved with the snapshot",
+      "license_notice": "starter/data/MCP-LICENSE",
+      "version": "06e923405df3df242f1471b9300d9db90ebd10fd",
+      "license_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/LICENSE",
+      "counting_rule": "One independent MDX document after removing front matter and fenced examples.",
+      "units": [
+        {
+          "page": 1,
+          "characters": 4074
+        }
+      ]
+    },
+    {
+      "source_id": "mcp-lifecycle",
+      "title": "MCP Lifecycle",
+      "source_path_or_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/docs/specification/2025-03-26/basic/lifecycle.mdx",
+      "local_file": "mcp-lifecycle.mdx",
+      "license_or_permission": "See upstream MIT/Apache-2.0 transition notice preserved with the snapshot",
+      "license_notice": "starter/data/MCP-LICENSE",
+      "version": "06e923405df3df242f1471b9300d9db90ebd10fd",
+      "license_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/blob/06e923405df3df242f1471b9300d9db90ebd10fd/LICENSE",
+      "counting_rule": "One independent MDX document after removing front matter and fenced examples.",
+      "units": [
+        {
+          "page": 1,
+          "characters": 5952
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+[
+  {
+    "strategy": "A",
+    "source": "survey-v3",
+    "page": 3,
+    "offset": 2376,
+    "chunks": [
+      {
+        "id": "survey-v3:3:5",
+        "text": "eract with specialized agents, combining their capabilities to create emergent forms of collective intelligence greater than any individual component. This intelligence network would break down the artificial barriers between \"tool intelligence\" and \"agent intelligence\", allowing them to merge, amplify, and complement each other dynamically. Specialized agents could form temporary coalitions to solve complex problems, intelligent tools could extend the capabilities of multiple agents simultaneou"
+      }
+    ]
+  },
+  {
+    "strategy": "A",
+    "source": "survey-v3",
+    "page": 4,
+    "offset": 1146,
+    "chunks": [
+      {
+        "id": "survey-v3:4:2",
+        "text": "• We conduct a qualitative analysis of current agent protocols across key dimensions such as efficiency, scalability, security, and reliability, revealing their relative strengths and limitations in different application environments.\n\n• We offer a forward-looking perspective on the evolution of agent protocols, identifying short-, mid-, and long-term trends, including the shift toward evolvable, privacy-aware, and group-coordinated protocols, as well as the emergence of layered architectures an"
+      }
+    ]
+  },
+  {
+    "strategy": "A",
+    "source": "survey-v3",
+    "page": 5,
+    "offset": 1042,
+    "chunks": [
+      {
+        "id": "survey-v3:5:2",
+        "text": " memory components to maintain context across interactions and store relevant information for future use (Zhang et al.,2024;Yang et al.,2025b). This dual memory system allows agents to maintain conversation continuity while building knowledge over time.\n\n• Planning: Planning is a fundamental aspect of agent research (), enabling agents to break down complex tasks into smaller, manageable subtasks. Such planning mechanisms facilitate strategic problem-solving and enhance the interpretability and "
+      }
+    ]
+  },
+  {
+    "strategy": "A",
+    "source": "survey-v3",
+    "page": 6,
+    "offset": 2245,
+    "chunks": [
+      {
+        "id": "survey-v3:6:4",
+        "text": "esearch has increasingly focused on enhancing agent reasoning capabilities through specialized models designed specifically for complex analytical tasks. The development of reasoning-focused or o1-like models (Jaech et al.,2024) represents a significant advancement in enabling agents to handle intricate problem-solving scenarios that require multi-step logical processes. Another key research direction involves multi-agent architectures where multiple specialized agents collaborate to accomplish "
+      }
+    ]
+  },
+  {
+    "strategy": "A",
+    "source": "survey-v3",
+    "page": 7,
+    "offset": 1885,
+    "chunks": [
+      {
+        "id": "survey-v3:7:4",
+        "text": "e intelligence to emerge when specialized agents form temporary coalitions to solve complex problems. By sharing insights and coordinating actions through standardized communication channels, distributed agent systems can achieve results impossible for monolithic architectures, enabling entirely new cognitive architectures that distribute reasoning across multiple specialized systems. The current agent protocol landscape encompasses various strategic paradigms. Model-centric protocols, exemplifi"
+      }
+    ]
+  },
+  {
+    "strategy": "A",
+    "source": "survey-v3",
+    "page": 8,
+    "offset": 1312,
+    "chunks": [
+      {
+        "id": "survey-v3:8:2",
+        "text": " will independently decide to consult a real-world weather API to retrieve the pertinent data to obtain the necessary context and answer this question. In the early stages of development, the tool usage capability of LLM agents was typically fine-tuned through formatted function-calling datasets (Qu et al.,2025;Schick et al.,2023;Liu et al.,2024). While this approach can quickly enhance the ability of LLM agents to invoke functions and require contexts, it faces several challenges due to the lac"
+      }
+    ]
+  },
+  {
+    "strategy": "A",
+    "source": "survey-v3",
+    "page": 9,
+    "offset": 1764,
+    "chunks": [
+      {
+        "id": "survey-v3:9:3",
+        "text": "to tool usage for LLM agents, making it easier for them to integrate a wide range of new tools. In addition, the client-server architecture of MCP decouples tool invocation from LLM responses, reducing the risk of data leakage. The following discussion will proceed to introduce the fundamental structure and process of the MCP protocol. The utilisation of the MCP protocol for tool usage can be characterised by the presence of four distinct components, namely Host, Client, Server and Resource.\n\nEn"
+      }
+    ]
+  },
+  {
+    "strategy": "A",
+    "source": "survey-v3",
+    "page": 10,
+    "offset": 2167,
+    "chunks": [
+      {
+        "id": "survey-v3:10:4",
+        "text": "interfaces. By aligning tool invocation with MCP, base LLM providers avoid implementing proprietary formats, thereby enabling greater interoperability and seamless switching between models. Concurrently, context providers support MCP through a one-time integration process, thereby enabling any MCPcompatible LLM agent to access their services. This standardization has been shown to have a significant impact on development and maintenance costs, whilst concomitantly improving scalability and cross"
+      }
+    ]
+  },
+  {
+    "strategy": "A",
+    "source": "survey-v3",
+    "page": 11,
+    "offset": 2035,
+    "chunks": [
+      {
+        "id": "survey-v3:11:4",
+        "text": "l component in Multi-Agent System (MAS). However, most current MAS frameworks directly embed agents into the system structure without a clearly defined standard for agent interaction methods, which will hinder the development of multi-agent systems. Therefore, there is a growing need to establish a standardized protocol governing the interaction among agents, referred to as the Inter-Agent Protocol. The protocol should effectively address issues such as agents discovery, information sharing, and"
+      }
+    ]
+  },
+  {
+    "strategy": "A",
+    "source": "survey-v3",
+    "page": 12,
+    "offset": 1646,
+    "chunks": [
+      {
+        "id": "survey-v3:12:3",
+        "text": "gents across different platforms can authenticate each other securely. • Meta-Protocol Layer: Serving as a protocol of protocols, this layer enables agents to autonomously negotiate and coordinate communication protocols using natural language, such as Agora (Marro et al.,2024). It supports the dynamic adaptation of communication protocols to accommodate varying interaction needs.\n\n• Application Protocol Layer: This layer is responsible for defining standardized protocols that regulate the disco"
+      }
+    ]
+  },
+  {
+    "strategy": "B",
+    "source": "survey-v3",
+    "page": 3,
+    "offset": 2376,
+    "chunks": [
+      {
+        "id": "survey-v3:3:5",
+        "text": "Such standardization would enable different forms of intelligence to flow between systems—where tools with embedded intelligence could seamlessly interact with specialized agents, combining their capabilities to create emergent forms of collective intelligence greater than any individual component. This intelligence network would break down the artificial barriers between \"tool intelligence\" and \"agent intelligence\", allowing them to merge, amplify, and complement each other dynamically."
+      }
+    ]
+  },
+  {
+    "strategy": "B",
+    "source": "survey-v3",
+    "page": 4,
+    "offset": 1146,
+    "chunks": [
+      {
+        "id": "survey-v3:4:3",
+        "text": "• We offer a forward-looking perspective on the evolution of agent protocols, identifying short-, mid-, and long-term trends, including the shift toward evolvable, privacy-aware, and group-coordinated protocols, as well as the emergence of layered architectures and collective intelligence infrastructures.\n\n2 Preliminaries"
+      }
+    ]
+  },
+  {
+    "strategy": "B",
+    "source": "survey-v3",
+    "page": 5,
+    "offset": 1042,
+    "chunks": [
+      {
+        "id": "survey-v3:5:2",
+        "text": "• Memory Systems: LLM agents implement both short-term and long-term memory components to maintain context across interactions and store relevant information for future use (Zhang et al.,2024;Yang et al.,2025b). This dual memory system allows agents to maintain conversation continuity while building knowledge over time."
+      }
+    ]
+  },
+  {
+    "strategy": "B",
+    "source": "survey-v3",
+    "page": 6,
+    "offset": 2245,
+    "chunks": [
+      {
+        "id": "survey-v3:6:6",
+        "text": "Another key research direction involves multi-agent architectures where multiple specialized agents collaborate to accomplish complex tasks (Yang et al.,2024;Guo et al.,2024;Yang et al.,2025b;Rajaei,2024). These systems distribute cognitive load across multiple agents, each optimized for specific subtasks, and have demonstrated superior performance in handling complex, open-ended problems compared to single-agent approaches."
+      }
+    ]
+  },
+  {
+    "strategy": "B",
+    "source": "survey-v3",
+    "page": 7,
+    "offset": 1885,
+    "chunks": [
+      {
+        "id": "survey-v3:7:4",
+        "text": "By abstracting away the complexities of interaction logic, protocols significantly reduce agent development complexity, empowering developers to concentrate efforts on enhancing core agent functionalities. Perhaps most transformatively, protocols enable collective intelligence to emerge when specialized agents form temporary coalitions to solve complex problems."
+      }
+    ]
+  },
+  {
+    "strategy": "B",
+    "source": "survey-v3",
+    "page": 8,
+    "offset": 1312,
+    "chunks": [
+      {
+        "id": "survey-v3:8:3",
+        "text": "While this approach can quickly enhance the ability of LLM agents to invoke functions and require contexts, it faces several challenges due to the lack of a standardized and unified context-oriented protocol. However, the absence of standardized protocols in the LLM ecosystem has led to significant fragmentation in both tool invocations and interfaces. LLM providers often implement proprietary standards for tool usage, consequently leading to varying prompt formats across base models."
+      }
+    ]
+  },
+  {
+    "strategy": "B",
+    "source": "survey-v3",
+    "page": 9,
+    "offset": 1764,
+    "chunks": [
+      {
+        "id": "survey-v3:9:4",
+        "text": "The following discussion will proceed to introduce the fundamental structure and process of the MCP protocol. The utilisation of the MCP protocol for tool usage can be characterised by the presence of four distinct components, namely Host, Client, Server and Resource."
+      }
+    ]
+  },
+  {
+    "strategy": "B",
+    "source": "survey-v3",
+    "page": 10,
+    "offset": 2167,
+    "chunks": [
+      {
+        "id": "survey-v3:10:5",
+        "text": "Concurrently, context providers support MCP through a one-time integration process, thereby enabling any MCPcompatible LLM agent to access their services. This standardization has been shown to have a significant impact on development and maintenance costs, whilst concomitantly improving scalability and cross-platform compatibility. Additionally, MCP reduces data security risks arised from the coupling of tool invocations in function-calling style with LLM responses."
+      }
+    ]
+  },
+  {
+    "strategy": "B",
+    "source": "survey-v3",
+    "page": 11,
+    "offset": 2035,
+    "chunks": [
+      {
+        "id": "survey-v3:11:6",
+        "text": "However, most current MAS frameworks directly embed agents into the system structure without a clearly defined standard for agent interaction methods, which will hinder the development of multi-agent systems. Therefore, there is a growing need to establish a standardized protocol governing the interaction among agents, referred to as the Inter-Agent Protocol."
+      }
+    ]
+  },
+  {
+    "strategy": "B",
+    "source": "survey-v3",
+    "page": 12,
+    "offset": 1646,
+    "chunks": [
+      {
+        "id": "survey-v3:12:4",
+        "text": "• Meta-Protocol Layer: Serving as a protocol of protocols, this layer enables agents to autonomously negotiate and coordinate communication protocols using natural language, such as Agora (Marro et al.,2024). It supports the dynamic adaptation of communication protocols to accommodate varying interaction needs."
+      }
+    ]
+  }
+]
